@@ -125,6 +125,21 @@ add_filter( 'the_content', function ( $content ) {
 }, 0 ); // before AIOSEO's author bio box appends
 
 /**
+ * Facebook's web sharer (sharer.php) dead-ends inside the mobile Facebook app — it opens the app,
+ * which can't process the web endpoint, and jiggles to nothing. On devices with the Web Share API,
+ * open the native OS share sheet instead (where picking Facebook lands in its real composer).
+ * Desktop is untouched (sharer.php popup still works). Targets the FB link by href, class-agnostic.
+ */
+add_action( 'wp_footer', function () {
+	if ( ! is_singular() ) {
+		return;
+	}
+	?>
+<script>document.addEventListener("click",function(e){var fb=e.target.closest('a[href*="facebook.com/sharer"]');if(fb&&navigator.share){e.preventDefault();var u;try{u=new URL(fb.href).searchParams.get("u");}catch(x){}navigator.share({title:document.title,url:u||location.href}).catch(function(){});}});</script>
+	<?php
+} );
+
+/**
  * Noindex author archives — single-author site, the archive duplicates /blog/.
  * The AIOSEO setting (Archives > Author > noindex) is set but never applies here:
  * with the posts page at /blog/, its meta wins over the author branch in

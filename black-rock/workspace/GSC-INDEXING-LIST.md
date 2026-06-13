@@ -6,7 +6,7 @@
 
 ## STEP 2 — Request indexing NOW (brand-new pages that exist today, highest value)
 *These never existed before — Google has no record of them. Inspect → Request Indexing, in this priority order:*
-- [ ] https://www.blackrockmortgage.com/work-with-us/  (recruiting — unique, no competition)
+- [ ] https://www.blackrockmortgage.com/become-a-mortgage-broker/  (recruiting — renamed from /work-with-us/ for SEO)
 - [ ] https://www.blackrockmortgage.com/spec-construction-loans/  (new program, weak SERP = easy win)
 - [ ] https://www.blackrockmortgage.com/florida-physician-loan/
 - [ ] https://www.blackrockmortgage.com/states-we-are-licensed/

@@ -14,7 +14,7 @@ if (!function_exists('brm_share_should_show')) {
         if (is_page()) {
             $exclude = array(
                 'get-pre-approved','about-us','our-team','contact','keith-meredith',
-                'privacy-policy','terms-of-service','accessibility','get-a-quote','work-with-us',
+                'privacy-policy','terms-of-service','accessibility','get-a-quote','work-with-us','become-a-mortgage-broker',
             );
             $slug = get_post_field('post_name', get_queried_object_id());
             return !in_array($slug, $exclude, true);
@@ -77,13 +77,32 @@ add_action('wp_enqueue_scripts', function () {
 
     $js = '
 document.addEventListener("click",function(e){
-  var b=e.target.closest(".brm-share-copy"); if(!b) return;
-  var url=b.getAttribute("data-url");
-  navigator.clipboard.writeText(url).then(function(){
-    var t=b.querySelector(".brm-share-copytxt"); var old=t?t.textContent:"";
-    b.classList.add("copied"); if(t)t.textContent="Copied!";
-    setTimeout(function(){b.classList.remove("copied"); if(t)t.textContent=old||"Copy link";},1800);
-  });
+  /* copy link */
+  var cp=e.target.closest(".brm-share-copy");
+  if(cp){
+    var url=cp.getAttribute("data-url");
+    navigator.clipboard.writeText(url).then(function(){
+      var t=cp.querySelector(".brm-share-copytxt"); var old=t?t.textContent:"";
+      cp.classList.add("copied"); if(t)t.textContent="Copied!";
+      setTimeout(function(){cp.classList.remove("copied"); if(t)t.textContent=old||"Copy link";},1800);
+    });
+    return;
+  }
+  /* Facebook: sharer.php dead-ends inside the mobile FB app. Use the native
+     share sheet where it exists (all modern phones) so Facebook actually works. */
+  var fb=e.target.closest("a.brm-share-btn[href*=\"facebook.com/sharer\"]");
+  if(fb && navigator.share){
+    e.preventDefault();
+    var u; try{u=new URL(fb.href).searchParams.get("u");}catch(x){}
+    navigator.share({title:document.title,url:u||location.href}).catch(function(){});
+    return;
+  }
+  /* desktop: open any network share in a tidy popup instead of a full tab */
+  var sb=e.target.closest("a.brm-share-btn");
+  if(sb && sb.getAttribute("target")==="_blank" && !navigator.share){
+    e.preventDefault();
+    window.open(sb.href,"brmshare","width=600,height=560,menubar=no,toolbar=no,scrollbars=yes");
+  }
 });';
     wp_register_script('brm-share', '', array(), '1.0', true);
     wp_enqueue_script('brm-share');

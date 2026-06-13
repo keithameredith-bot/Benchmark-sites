@@ -161,3 +161,7 @@ This is a **mid-flight Divi→Kadence migration**, not just an update. The LIVE 
 - Pushed to prod via SFTP; verified live (cache-buster) on /blog/ and /category/maintenance/.
   Only "Maintenance" chip shows for now (thin content) — fills in as posts get categorized.
 - KEITH: purge Pressidium cache so all visitors see it (currently only cache-buster requests do).
+
+## 2026-06-13 — Facebook share button mobile fix
+- Same fix as JSC: wp_footer navigator.share handler in tire-express-custom.php (mu-plugin), FB
+  link targeted by href. Pushed via SFTP, verified on prod. KEITH: purge cache, test on phone.

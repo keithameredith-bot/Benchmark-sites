@@ -308,3 +308,9 @@ new-construction, about-us, reviews, blog, contact. (Confirm full list against s
 - Removed both stopgaps: footer widget block-90 <style> hack (REST) and the quote-page
   wpforms-jquery-fallback shim (rebuilt + pushed). All verified live; form renders.
 - KEITH: purge Pressidium cache (cached pages still serve old HTML until then).
+
+## 2026-06-13 — Facebook share button mobile fix
+- FB sharer.php dead-ends in the mobile FB app. Added a wp_footer document-level click listener
+  (is_singular) that, where navigator.share exists, opens the native share sheet instead; targets
+  the FB link by href (class-agnostic). Desktop unchanged. functions.php pushed via SFTP, verified
+  on prod. KEITH: purge Pressidium cache, then test on a phone.

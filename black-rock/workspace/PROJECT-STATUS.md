@@ -291,6 +291,13 @@ Manufactured-home pages + new-construction page need their OWN lead form (differ
 - TESTED: 4 live submissions (recruit/preapproval/manufactured/contact) = 4x success. KEITH: delete 3 TEST leads from Follow Up Boss (TEST Preapproval/Manufactured/Contact, test*@test.com).
 - n8n open loop CLOSED. Remaining: video, HELOC comp detail, THE PUSH.
 
+## Session 33 (2026-06-13): WWU -> become-a-mortgage-broker (SEO)
+- DFS recruiting kw research: head terms unwinnable (job boards own 'loan officer jobs' 5400; 'how to become a mortgage broker' 2900 = informational; 'independent mortgage broker' 1900 = consumer intent). Verdict: organic rankings unrealistic for a landing page, but AI citations + slug value are real.
+- Slug /work-with-us/ -> /become-a-mortgage-broker/ (page 18179, live via REST). Added: 'How to Become a Mortgage Broker in Florida' how-to section (3 cards: license/operate/platform, serves informational intent + pivots to pitch) + FAQPage schema (6 Qs, valid). AIOSEO title already had 'Become a Mortgage Broker' - aligned.
+- Share buttons: baked CSS hide (body.page-id-18179 .brm-share) into content since no SFTP to edit mu-plugin on live; mu-plugin exclude list updated on LOCAL for parity.
+- Internal links: states page (987515440) content fixed via REST + local. Menu item 987515489 = by-ID (post_type) + footer widget = by-reference -> both SELF-HEAL on Pressidium cache clear. States/content parity done on local.
+- **OLD /work-with-us/ now 404s (was NEVER indexed - no SEO loss). No 301: AIOSEO redirect REST = 404, can't write _wp_old_slug via REST. KEITH OPTIONAL: clear Pressidium cache to propagate new menu/footer URL instantly + add /work-with-us/ -> /become-a-mortgage-broker/ 301 in Pressidium/AIOSEO as insurance.**
+
 ## 🔴 OPEN LOOPS (carry forward every session)
 - **⚠️ N8N FIELD MAPPING (Keith, before/at launch):** the two new forms send NEW field names the n8n workflow doesn't map yet — manufactured-form: `land, hometype, year, moved` (+purpose/credit/timeline) source="Manufactured home form"; construction-form: `land, plans, builder, budget, program, ground` source="Construction loan form". Update the n8n workflow (benchmarkwebd.app.n8n.cloud, brm-preapproval webhook) so these flow into Follow Up Boss/Telegram notes. Until then: name/phone/email/source still arrive fine.
 - **FEATURED IMAGES**: all 8 new posts/pages + rebuilt usda-turn-times need featured images. Keith generates in ChatGPT, will batch-add. REMIND each session until done.
