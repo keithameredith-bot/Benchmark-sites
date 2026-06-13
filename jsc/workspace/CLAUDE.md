@@ -3,9 +3,9 @@
 This folder (`Desktop\jsc-kadence-mockup\`) holds the JSC Divi→Kadence migration deliverables.
 
 **START HERE:** read `PROJECT-STATUS.md` in this folder — it's the full handoff (all decisions,
-conventions, next steps). Also read the Benchmark root conventions at
-`C:\Users\keith\Downloads\CLAUDE.md` (shared stack: WP + Kadence, AIOSEO, Perfmatters, ShortPixel,
-Pressidium host/CDN, Cloudflare DNS-only, caching order, iOS Safari gradient bug + fix).
+conventions, next steps). The Benchmark shared conventions (WP + Kadence, AIOSEO, Perfmatters,
+ShortPixel, Pressidium host/CDN, Cloudflare DNS-only, caching order, iOS Safari gradient bug + fix)
+now **auto-load from the global `~/.claude/CLAUDE.md`** — no need to open Downloads manually.
 
 ## Quick facts
 - **Local site:** `C:\Users\keith\Local Sites\jsc\app\public\` (LocalWP, still Divi)

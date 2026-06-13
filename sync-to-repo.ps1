@@ -7,7 +7,8 @@ $rc = @("/MIR", "/NJH", "/NJS", "/NDL", "/NFL",
     "*.ttf", "*.pdf", "*.mov", "*.mp4", "_*",
     "/XD", "_*", ".git")
 
-Copy-Item "C:\Users\keith\Downloads\CLAUDE.md" "$repo\CLAUDE.md" -Force
+# conventions now canonical at the global ~/.claude/CLAUDE.md (auto-loads in every session)
+Copy-Item "C:\Users\keith\.claude\CLAUDE.md" "$repo\CLAUDE.md" -Force
 
 robocopy "C:\Users\keith\Desktop\jsc-kadence-mockup" "$repo\jsc\workspace" @rc | Out-Null
 robocopy "C:\Users\keith\Local Sites\jsc\app\public\wp-content\themes\kadence-child" "$repo\jsc\kadence-child" @rc | Out-Null

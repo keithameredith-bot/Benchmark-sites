@@ -1,9 +1,9 @@
 # CLAUDE.md — FGS (Florida Geotechnical Services) working folder
 
 This folder holds the FGS site build-out work. **START HERE: read `PROJECT-STATUS.md` in this folder** —
-it's the live handoff. Also read the Benchmark shared conventions at `C:\Users\keith\Downloads\CLAUDE.md`
-(stack: WP + Kadence, AIOSEO, Perfmatters, ShortPixel, Pressidium host, Cloudflare DNS-only, caching
-order, iOS Safari gradient bug + fix).
+it's the live handoff. The Benchmark shared conventions (stack: WP + Kadence, AIOSEO, Perfmatters,
+ShortPixel, Pressidium host, Cloudflare DNS-only, caching order, iOS Safari gradient bug + fix) now
+**auto-load from the global `~/.claude/CLAUDE.md`** — no need to open Downloads manually.
 
 ## Quick facts
 

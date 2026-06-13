@@ -27,3 +27,8 @@
 ## Cleanup
 - [ ] Remove 6 defunct lenders from the master list (Athas, Caliber, Impac, FAM, Franklin American, BBVA).
 - [ ] Category descriptions for older blog cats (Mortgage News, USDA, Manufactured) so the new category-page heroes show custom subtitles instead of the generic line.
+
+## Facebook share button — needs App ID (Keith providing)
+- Mobile reality: tapped FB button can't open Facebook's real share composer without a FB App ID (sharer.php dead-ends in app; navigator.share = generic OS sheet, which Keith rejected). Current state on all 3 sites = navigator.share native sheet (functional but generic).
+- WHEN KEITH PROVIDES APP ID: wire Facebook official Share Dialog in brm-social-share.php JS — FB button -> https://www.facebook.com/dialog/share?app_id=APPID&display=popup&href=ENCODED_URL (works desktop popup + mobile). Replace the navigator.share FB branch. Deploy to BR via SFTP; give Keith same snippet for TE + JSC. Test on phone after.
+- App creation: developers.facebook.com -> Create App -> Consumer/Other -> copy App ID (no review needed for basic share).

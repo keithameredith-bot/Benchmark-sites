@@ -27,7 +27,8 @@ if (!function_exists('brm_share_markup')) {
     function brm_share_markup() {
         $url   = rawurlencode(get_permalink());
         $title = rawurlencode(get_the_title());
-        $fb = "https://www.facebook.com/sharer/sharer.php?u={$url}";
+        // Official Facebook Share Dialog (App ID). Works on mobile + desktop; sharer.php dead-ends in the mobile FB app.
+        $fb = "https://www.facebook.com/dialog/share?app_id=4112051565753151&display=popup&href={$url}&redirect_uri={$url}";
         $x  = "https://twitter.com/intent/tweet?url={$url}&text={$title}";
         $li = "https://www.linkedin.com/sharing/share-offsite/?url={$url}";
         $em = "mailto:?subject={$title}&body={$url}";
@@ -88,18 +89,11 @@ document.addEventListener("click",function(e){
     });
     return;
   }
-  /* Facebook: sharer.php dead-ends inside the mobile FB app. Use the native
-     share sheet where it exists (all modern phones) so Facebook actually works. */
-  var fb=e.target.closest("a.brm-share-btn[href*=\"facebook.com/sharer\"]");
-  if(fb && navigator.share){
-    e.preventDefault();
-    var u; try{u=new URL(fb.href).searchParams.get("u");}catch(x){}
-    navigator.share({title:document.title,url:u||location.href}).catch(function(){});
-    return;
-  }
-  /* desktop: open any network share in a tidy popup instead of a full tab */
+  /* On desktop, open network shares (FB dialog / X / LinkedIn) in a tidy popup.
+     On mobile, let the link navigate — the Facebook Share Dialog (app_id) opens
+     the real FB share flow, and X/LinkedIn open their apps. */
   var sb=e.target.closest("a.brm-share-btn");
-  if(sb && sb.getAttribute("target")==="_blank" && !navigator.share){
+  if(sb && sb.getAttribute("target")==="_blank" && window.innerWidth>768){
     e.preventDefault();
     window.open(sb.href,"brmshare","width=600,height=560,menubar=no,toolbar=no,scrollbars=yes");
   }
