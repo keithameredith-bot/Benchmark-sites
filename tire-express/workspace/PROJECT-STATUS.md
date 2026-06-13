@@ -135,3 +135,29 @@ This is a **mid-flight Divi→Kadence migration**, not just an update. The LIVE 
   (pre_get_avatar_data), author-archive noindex (aioseo_robots_meta). Styles all inline in mu-plugin.
 - Deployed: mu-plugin via SFTP, content+author via REST. Verified live: all elements on all 3 posts.
 - KEITH: purge Pressidium cache (TE + JSC) so cached pages pick up tonight's changes.
+
+## 2026-06-13 — Perfmatters aligned to JSC (the 82->97 fix)
+- Root cause of TE 82 vs JSC 97: NOT the theme (both Kadence). TE was loading 4 render-blocking
+  Kadence stylesheets (~122KB) because RUCSS was OFF; JSC's RUCSS collapses them to ~0.
+- Applied JSC's gold-standard perfmatters_options to TE PROD (verified persisted in DB via
+  object-cache-busted read): remove_unused_css=1 + 9 Kadence protect-selectors, delay_js_exclusions
+  [wpforms,jquery] (was EMPTY -> also fixes TE WPForms jQuery bug), delay inclusion [trustindex],
+  lazy_loading=1 (store-front-hero desktop+mobile excluded), local fonts, critical_images=2,
+  jquery-migrate removed, emoji/dashicon/embed/xmlrpc/heartbeat disables.
+- Method: temp gated mu-plugin via SFTP (REST/SFTP can't reach perfmatters_options as data).
+  Fought Pressidium opcache (validate_timestamps off -> fresh filename per edit) + object cache
+  (wp_cache_delete to verify). Temp plugins deleted; opcache may serve the inert gated route until purge.
+- KEITH TO DO: (1) Pressidium Clear Cache (page+object) — REQUIRED, object cache is masking the new
+  config from real visitors right now. (2) Click through home/service/blog/mobile-menu/footer/contact
+  form — RUCSS can strip a style; if anything looks unstyled tell me the selector. (3) PageSpeed x2-3
+  (first run regenerates Used CSS). Expect a jump toward the 90s.
+
+## 2026-06-13 — branded blog hero (matches Black Rock pattern)
+- New mu-plugin tire-express-blog-hero.php (port of brm-blog-hero.php): gradient hero band on
+  /blog/ + category archives via kadence_archive hook (priority 5), hides the default "Blogs"
+  title band. TE colors: deep navy-blue gradient + blue glow, Space Grotesk, eyebrow #7fa8ff,
+  orange #ff5a3c active chip. Eyebrow "The Tire Express Blog", H1 "Tire & Auto Advice for Ocala
+  Drivers", category chips (hide_empty, Uncategorized excluded).
+- Pushed to prod via SFTP; verified live (cache-buster) on /blog/ and /category/maintenance/.
+  Only "Maintenance" chip shows for now (thin content) — fills in as posts get categorized.
+- KEITH: purge Pressidium cache so all visitors see it (currently only cache-buster requests do).

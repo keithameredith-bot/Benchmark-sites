@@ -284,6 +284,13 @@ Manufactured-home pages + new-construction page need their OWN lead form (differ
 - Homepage form STILL blank on Keith's phone after Perfmatters fix. Cause #2: 26 pages had ABSOLUTE iframe srcs (http://black-rock-mortgage.local/...) — phone can't resolve .local, so iframes died on LAN/LiveLink while relative-src pages worked. fix-absolute-iframe-src.php → all /wp-content/uploads/forms/ srcs now relative. RULE: iframe/file srcs in content are ALWAYS relative (phone testing + push safety).
 - Callback bars (pulsing dot, same-business-day promise) on 27 consumer form locations (home/24 prog/contact/GPA); recruiting form deliberately skipped (has confidential strip). Mobile drawer gold 'Apply Now — Full Application' menu item (987515491) → my1003app portal; hidden on desktop nav.
 
+## Session 32 (2026-06-12): N8N BUILT VIA API - DONE
+- Keith provided n8n API key (C:\Users\keith\.n8n-api.txt, paid plan). Built via REST API (n8n-build2.ps1; PS5.1 emoji gotcha -> [char]::ConvertFromUtf32):
+- NEW workflow 'BRM Recruiting - LO Leads' (hVmQMclZV7JnVQ9z): webhook /brm-recruiting -> Format lead (Code) -> Telegram (reused cred mOYcH4MrZV4yQEar). ACTIVATED. No FUB by design (recruits stay out of borrower CRM).
+- UPGRADED 'Black Rock Lead -FUB +Telegram' (gynQw95S8WbHcyGm): inserted universal 'Format lead' Code node (labels map, summary + summaryEscaped for JSON) -> Telegram (dynamic source header) + FUB (message=summary, tags=['Website Lead', source]). Handles ALL form shapes incl. future ones, zero remapping.
+- TESTED: 4 live submissions (recruit/preapproval/manufactured/contact) = 4x success. KEITH: delete 3 TEST leads from Follow Up Boss (TEST Preapproval/Manufactured/Contact, test*@test.com).
+- n8n open loop CLOSED. Remaining: video, HELOC comp detail, THE PUSH.
+
 ## 🔴 OPEN LOOPS (carry forward every session)
 - **⚠️ N8N FIELD MAPPING (Keith, before/at launch):** the two new forms send NEW field names the n8n workflow doesn't map yet — manufactured-form: `land, hometype, year, moved` (+purpose/credit/timeline) source="Manufactured home form"; construction-form: `land, plans, builder, budget, program, ground` source="Construction loan form". Update the n8n workflow (benchmarkwebd.app.n8n.cloud, brm-preapproval webhook) so these flow into Follow Up Boss/Telegram notes. Until then: name/phone/email/source still arrive fine.
 - **FEATURED IMAGES**: all 8 new posts/pages + rebuilt usda-turn-times need featured images. Keith generates in ChatGPT, will batch-add. REMIND each session until done.
