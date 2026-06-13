@@ -15,6 +15,7 @@ robocopy "C:\Users\keith\Local Sites\jsc\app\public\wp-content\themes\kadence-ch
 robocopy "C:\Users\keith\Desktop\tire-express-workspace" "$repo\tire-express\workspace" @rc | Out-Null
 robocopy "C:\Users\keith\Desktop\fgs-workspace" "$repo\fgs\workspace" @rc | Out-Null
 robocopy "C:\Users\keith\Desktop\black-rock-workspace" "$repo\black-rock\workspace" @rc | Out-Null
+robocopy "C:\Users\keith\Desktop\north-fl-container-workspace" "$repo\nfc\workspace" @rc | Out-Null
 
 # custom mu-plugins only (Pressidium/Local infrastructure files are not ours)
 New-Item -ItemType Directory -Force "$repo\tire-express\mu-plugins" | Out-Null
