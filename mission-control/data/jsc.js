@@ -8,6 +8,7 @@ window.MC.sites.push({
   site: "jscfla.com",
   stage: "Paused — pre-launch (awaiting Alex's pricing)",
   cadence: "2 posts / month (starts at launch)",
+  gbp: "2 GBP posts / week + 1 per blog publish",
   traffic: { visits: 1406, keywords: 68, note: "current site; rebuild pre-launch" },
   items: [
     // blog slots (start at launch — tentative)

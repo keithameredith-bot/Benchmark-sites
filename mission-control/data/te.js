@@ -8,6 +8,8 @@ window.MC.sites.push({
   site: "tireexpressandservice.com",
   stage: "Live — rebuild deployed",
   cadence: "2 posts / month",
+  gbp: "2 GBP posts / week + 1 per blog publish",
+  social: "Facebook + Instagram (TE does social)",
   traffic: { visits: 608, keywords: 84, note: "" },
   items: [
     // upcoming blog slots (2/month)
