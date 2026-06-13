@@ -1,0 +1,77 @@
+{
+    "version": "0.1.20260610",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "4.4583 sec.",
+    "cost": 0.0271039,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "06110203-1901-0612-0000-c59ad7b0ac23",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "4.4482 sec.",
+            "cost": 0.0271039,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "chat_gpt",
+                "llm_responses",
+                "live"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_responses",
+                "se": "chat_gpt",
+                "model_name": "gpt-4o-mini",
+                "web_search": true,
+                "user_prompt": "How do I apply for the Florida Hometown Heroes program and which lenders participate?"
+            },
+            "result": [
+                {
+                    "model_name": "gpt-4o-mini-2024-07-18",
+                    "input_tokens": 8174,
+                    "output_tokens": 463,
+                    "reasoning_tokens": 0,
+                    "web_search": true,
+                    "money_spent": 0.0265039,
+                    "datetime": "2026-06-11 02:03:55 +00:00",
+                    "items": [
+                        {
+                            "type": "message",
+                            "sections": [
+                                {
+                                    "type": "text",
+                                    "text": "The Florida Hometown Heroes Housing Program is designed to assist eligible frontline community workers, such as healthcare professionals, educators, first responders, and military personnel, in achieving homeownership by providing down payment and closing cost assistance.\n\n**Application Process:**\n\n1. **Verify Eligibility:** Ensure you meet the program's occupational and income requirements. Eligible occupations include healthcare workers, school staff, first responders, public safety or court employees, childcare workers, active military members, and veterans employed full-time by a Florida-based employer. ([floridahousing.org](https:\/\/www.floridahousing.org\/live-local-act\/hometown-heroes-program?utm_source=openai))\n\n2. **Connect with a Participating Lender:** To apply, you must work with a Florida Housing-approved lender. You can find a list of participating lenders through the Florida Housing Finance Corporation's website. ([floridahousing.org](https:\/\/www.floridahousing.org\/live-local-act\/hometown-heroes-program?utm_source=openai))\n\n3. **Complete the Application:** Work with your chosen lender to complete the application process. This will involve providing necessary documentation and meeting the program's requirements.\n\n4. **Homebuyer Education Course:** Applicants are typically required to complete a homebuyer education course. Your lender will provide information on approved courses.\n\n**Participating Lenders:**\n\nThe program is administered by the Florida Housing Finance Corporation, which collaborates with various approved lenders across the state. To find a participating lender in your area, visit the Florida Housing Finance Corporation's website and use their lender locator tool. ([floridahousing.org](https:\/\/www.floridahousing.org\/live-local-act\/hometown-heroes-program?utm_source=openai))\n\nPlease note that program details, including eligibility criteria and participating lenders, may change. It's advisable to consult the Florida Housing Finance Corporation's official website or contact them directly for the most current information.\n\nFor a visual overview of the program, you might find this video helpful:\n\n[Florida Hometown Heroes Program is BACK! $35K in Assistance for Homebuyers!](https:\/\/www.youtube.com\/watch?v=b7BzEgP0vFo&utm_source=openai)\n ",
+                                    "annotations": [
+                                        {
+                                            "title": "Hometown Heroes Program",
+                                            "url": "https:\/\/www.floridahousing.org\/live-local-act\/hometown-heroes-program?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "Hometown Heroes Program",
+                                            "url": "https:\/\/www.floridahousing.org\/live-local-act\/hometown-heroes-program?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "Hometown Heroes Program",
+                                            "url": "https:\/\/www.floridahousing.org\/live-local-act\/hometown-heroes-program?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "Florida Hometown Heroes Program is BACK! $35K in Assistance for Homebuyers!",
+                                            "url": "https:\/\/www.youtube.com\/watch?v=b7BzEgP0vFo&utm_source=openai"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "fan_out_queries": [
+                        "Florida Hometown Heroes program apply lenders 2023"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+== about-us (ID 91280) ==
+
+POST_TITLE: About us
+
+AIOSEO_TITLE: (default)
+
+AIOSEO_DESC: (none)
+
+
+
+BG: http://jsc.local/wp-content/uploads/2025/12/jsc-short-2.webp
+
+TEXT: <p>Our story</p>
+
+TEXT: <h1>About us</h1>
+
+TEXT: <p>Get a Free Quote!</p>
+
+TEXT: <p>Make an Appointment Today</p>
+
+BUTTON: Get started today -> http://jsc.local/contact/
+
+TEXT: <p>Welcome</p>
+
+TEXT: <h2>How It All Started</h2>
+
+TEXT: <p><strong>JSC Contracting was founded by Alex Scanlan</strong> in July of 2018 after he successfully acquired Labagh Marine, a company started in 1984. <strong>He quickly accelerated the growth of JSC</strong> covering more territory, and broadening the services of the company.</p> <p>Expanding the <a href="http://jsc.local/our-team/">JSC team</a> with experienced project managers and sales staff allowed for the expansion of the services provided. Not only is JSC the <strong>premier <a href="http://jsc.local/central-florida-dock-builder/">marine construction</a> company in central Florida.</strong> They now consistently construct <a href="http://jsc.local/barndominium-builders-in-florida/">barndominiums</a>, <a href="http://jsc.local/pole-barn-builder/">pole barns</a>, new construction custom homes, and more for our central Florida neighbors.  Outdoor kitchens, <a href="http://jsc.local/boathouse-builder/">boat houses</a>, <a href="http://jsc.local/home-remodeling-central-florida/">remodels</a>, <a href="http://jsc.local/seawall-construction-and-repair/">seawalls</a>, <a href="http://jsc.local/central-florida-fence-builder/">new fencing</a>, are all a part of their portfolio of work.</p> <p>&nbsp;</p> <h3>Quality Workmanship</h3> <p>JSC wouldn't have come as far as they have if they sacrificed quality workmanship for growth. They pride themselves on making sure the job is done right, and aim to exceed client expectations.</p> <p><strong>Combining quality work with a commitment to transparent pricing has made many of their past clients loyal repeat clients.</strong></p> <p>They have created a company atmosphere of excellence and a "can do" attitude. This inspires everyone on the job site from management on down to operate with excellence on your project.</p> <h3>Results Driven</h3> <p>The job isn't done until the client is satisfied. <strong>JSC operates not only on a time driven scale, but a client satisfaction scale.</strong> It's not just about getting done, it's about getting the job done right. Its part of our <a href="http://jsc.local/core-values/">core values</a>. We walk through every project with our clients making sure every detail meets or exceeds their expectations.</p> <p>They are ready to help you get your dreams accomplished. <strong>Reach out today to take the first steps.</strong></p> <h3>A Note From the Founder of JSC Contracting Inc<strong></strong></h3> <p>"When I started JSC contracting we quickly grew because we always aimed to exceed client expectations. That same philosophy hasn't changed. <strong>It's the heartbeat of our company. </strong></p> <p>We would be honored if you trusted us with your next project."</p> <p><strong>Alex Scanlan- Owner</strong></p>
+
+IMG: http://jsc.local/wp-content/uploads/2026/02/alex-sig-small-2-final.png | alt=Alex Skanlin sig
+
+TEXT: <h3>Make an Appointment Today!</h3> <p>Call <span style="color: #33cccc;">(352) 687-2030</span> or go to our <a href="http://jsc.local/contact/">contact page</a> to schedule a call or meeting with one of our friendly team members.</p>
+
+BG: http://jsc.local/wp-content/uploads/2026/02/alex-left-transparent.png
+
+BG: https://constructionpro-demo.markhendriksen.com/wp-content/uploads/2024/08/corner-dots-left-top.png
+
+TEXT: <p>You Dream it, We Build it.</p>
+
+TEXT: <p>Features</p>
+
+TEXT: <h2>Why Choose Us</h2>
+
+TEXT: <p><span>Our goal is always 100% customer satisfaction. We want to exceed your expectations, not just meet them.</span></p>
+
+TEXT: <p><span>We knows clients don’t like surprises when it comes to the cost of a job. Our quotes are clear, transparent, and we hold to them.</span></p>
+
+TEXT: <p><span>Our company culture breeds an environment of excellence. You can expect dedication to your job from start to finish.</span></p>
+
+TEXT: <p><span>When we give an estimate for the completion of your project, we do everything we can to stick to that goal.</span></p>
+
+TEXT: <p><span>Our project managers and skilled laborers are relentlessly dedicated to getting the job done right no matter the project.</span> </p>
+
+TEXT: <p><span>We aim to always make sure our job site is secure, clean, and safe. </span></p>

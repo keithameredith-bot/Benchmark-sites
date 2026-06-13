@@ -1,0 +1,55 @@
+== barndominium-gallery (ID 101287) ==
+
+POST_TITLE: Barndominium Gallery
+
+AIOSEO_TITLE: (default)
+
+AIOSEO_DESC: Check out some pictures of our past barndominium builds. Barndominiums are a great way to give you flexibility and space at an affordable cost.
+
+
+
+BG: http://jsc.local/wp-content/uploads/2025/12/jsc-short-2.webp
+
+TEXT: <p>Our work speaks for itself</p>
+
+TEXT: <h1>Barndominium Gallery</h1>
+
+TEXT: <p>Get a Free Quote Today!</p>
+
+TEXT: <p>Make an Appointment Today</p>
+
+BUTTON: Get started today -> http://jsc.local/contact/
+
+TEXT: <p>Check out our past barndominium builds.</p>
+
+IMG: http://jsc.local/wp-content/uploads/2026/05/IMG_0421-1-scaled.jpeg | alt=Exterior view of a dark blue metal-clad building with white-framed windows under a wooden-beam covered walkway under construction
+
+IMG: http://jsc.local/wp-content/uploads/2026/05/Locust-Barn.webp | alt=
+
+IMG: http://jsc.local/wp-content/uploads/2026/02/barndominium-2.webp | alt=barndominium inside
+
+IMG: http://jsc.local/wp-content/uploads/2026/02/barndo-outside-2.webp | alt=Barndominium wood siding
+
+IMG: http://jsc.local/wp-content/uploads/2026/02/barndo-inside.webp | alt=barndominium inside
+
+IMG: http://jsc.local/wp-content/uploads/2026/02/bardo-4.webp | alt=New Construction Home
+
+IMG: http://jsc.local/wp-content/uploads/2026/05/Barn-on-Locust.webp | alt=
+
+IMG: http://jsc.local/wp-content/uploads/2026/05/Garage-LB.webp | alt=
+
+IMG: http://jsc.local/wp-content/uploads/2026/05/LB-Porch.webp | alt=
+
+IMG: http://jsc.local/wp-content/uploads/2026/05/LB-garage.webp | alt=Barndo, Bardominium
+
+IMG: http://jsc.local/wp-content/uploads/2026/05/Kitchen-Locust-Barn.webp | alt=Barndo interior
+
+IMG: http://jsc.local/wp-content/uploads/2026/02/custom-new-construction-home-builder-in-central-florida.webp | alt=
+
+IMG: http://jsc.local/wp-content/uploads/2026/05/Ranch-downstairs--scaled.jpg | alt=Barndo, kitchen, ranch
+
+IMG: http://jsc.local/wp-content/uploads/2026/05/Ranch-Kitchen--scaled.jpg | alt=Rustic kitchen with dark cabinetry, marble countertops, a stainless steel refrigerator, and a mounted deer head on a wood-paneled wall.
+
+IMG: http://jsc.local/wp-content/uploads/2026/05/Ranch-living--scaled.jpg | alt=Living room with knotty pine walls, a mounted deer head, brown leather sofa, and a wooden coffee table on a cowhide rug.
+
+IMG: http://jsc.local/wp-content/uploads/2026/05/Ranch-stalls--scaled.jpg | alt=Row of motorcycles parked inside a wooden barn-like garage with exposed ceiling beams and insulation above.

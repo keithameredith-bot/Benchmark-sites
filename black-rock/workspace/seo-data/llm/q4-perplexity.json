@@ -1,0 +1,91 @@
+{
+    "version": "0.1.20260610",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "6.2410 sec.",
+    "cost": 0.006063,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "06110203-1901-0612-0000-db6264ef0e9b",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "6.2148 sec.",
+            "cost": 0.006063,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "perplexity",
+                "llm_responses",
+                "live"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_responses",
+                "se": "perplexity",
+                "model_name": "sonar",
+                "web_search": true,
+                "user_prompt": "How do I apply for the Florida Hometown Heroes program and which lenders participate?"
+            },
+            "result": [
+                {
+                    "model_name": "sonar",
+                    "input_tokens": 23,
+                    "output_tokens": 440,
+                    "reasoning_tokens": 0,
+                    "web_search": true,
+                    "money_spent": 0.005463,
+                    "datetime": "2026-06-11 02:04:02 +00:00",
+                    "items": [
+                        {
+                            "type": "message",
+                            "sections": [
+                                {
+                                    "type": "text",
+                                    "text": "To apply for the Florida **Hometown Heroes** program, you typically start by contacting a **participating mortgage lender**, confirming you meet the programâs eligibility rules, and then completing the loan application with that lender.[1][2][3] The lender handles pre-approval, document collection, underwriting, and the down payment\/closing cost assistance portion of the loan.[2][3][4]\n\nThe usual application path is:\n\n- **Check eligibility**: first-time homebuyer status is commonly required, along with minimum credit score, income limits, and eligible employment; veterans are exempt from the first-time homebuyer requirement.[1][2][7]\n- **Choose a participating lender**: the program is accessed through an authorized lender, not by applying directly to Florida Housing as a consumer.[1][2][6][7]\n- **Submit your documents**: expect to provide ID, income proof, employment verification, bank statements, and any required homebuyer education certificate.[2][4]\n- **Get pre-approved**: your lender reviews your finances and issues a pre-approval letter so you can shop for a home.[2][3][4]\n- **Complete any required homebuyer education**: some applicants must finish a HUD-approved or lender-required course.[2][3][4]\n- **Finalize the loan and close**: once under contract, the lender coordinates with Florida Housing for final approval and closing.[2][3][8]\n\nFor **which lenders participate**, the search results do not provide a complete official lender list. They do confirm that you must work through a **participating\/authorized mortgage lender** and that the official program materials or the lenderâs program tool are used to find one.[1][2][6][7] Examples mentioned in the results include **MakeFloridaYourHome**, **Premier Mortgage Associates**, and **Ideal Lending** as lenders or program guides that work with the program.[1][3][4]\n\nIf you want, I can also help you with:\n- the **exact eligibility rules**,\n- a **document checklist**, or\n- how to find a **participating lender in your Florida county**.",
+                                    "annotations": [
+                                        {
+                                            "title": "How to Qualify for the Florida Hometown Heroes Program",
+                                            "url": "https:\/\/www.makefloridayourhome.com\/florida\/hometown-heroes\/qualify"
+                                        },
+                                        {
+                                            "title": "Application - Hometown Heroes Program in Florida",
+                                            "url": "https:\/\/hometownheroesprogram.org\/application\/"
+                                        },
+                                        {
+                                            "title": "Florida's Hometown Heroes Program: Who Qualifies and ...",
+                                            "url": "https:\/\/www.premiermtg.com\/floridas-hometown-heroes-program-who-qualifies-and-how-to-apply-in-palm-beach-county\/"
+                                        },
+                                        {
+                                            "title": "Florida's Hometown Heroes Program 2025 - Ideal Lending LLC",
+                                            "url": "https:\/\/www.ideallending.net\/florida-hometown-heroes-program\/"
+                                        },
+                                        {
+                                            "title": "Hometown Heroes Program in Florida",
+                                            "url": "https:\/\/www.linkedin.com\/pulse\/hometown-heroes-program-florida-get-government-grants-and-help-wenvf"
+                                        },
+                                        {
+                                            "title": "Hometown Heroes Program Florida | Down Payment Assistance",
+                                            "url": "https:\/\/hometownheroesprogram.org"
+                                        },
+                                        {
+                                            "title": "$50M available to help Florida teachers, military, public safety workers buy first home",
+                                            "url": "https:\/\/www.usatoday.com\/story\/news\/local\/2025\/08\/19\/florida-affordable-housing-program-escambia-santa-rosa-veterans-nurses-teachers\/85705962007"
+                                        },
+                                        {
+                                            "title": "Veterans Guide to the Florida Hometown Heroes Program",
+                                            "url": "https:\/\/www.youtube.com\/watch?v=VbGELy24_u4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "fan_out_queries": null
+                }
+            ]
+        }
+    ]
+}

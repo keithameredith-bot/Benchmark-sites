@@ -1,0 +1,2048 @@
+{
+    "version": "0.1.20260610",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.1326 sec.",
+    "cost": 0.0215,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "06110159-1901-0272-0000-79c5857e5901",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.0799 sec.",
+            "cost": 0.0215,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "backlinks",
+                "anchors",
+                "live"
+            ],
+            "data": {
+                "api": "backlinks",
+                "function": "anchors",
+                "target": "blackrockmortgage.com",
+                "limit": 50,
+                "order_by": [
+                    "backlinks,desc"
+                ]
+            },
+            "result": [
+                {
+                    "target": "blackrockmortgage.com",
+                    "total_count": 56,
+                    "items_count": 50,
+                    "items": [
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": null,
+                            "rank": 138,
+                            "backlinks": 56,
+                            "first_seen": "2019-05-25 17:06:42 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 1,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 9,
+                            "referring_domains_nofollow": 3,
+                            "referring_main_domains": 8,
+                            "referring_main_domains_nofollow": 3,
+                            "referring_ips": 8,
+                            "referring_subnets": 8,
+                            "referring_pages": 42,
+                            "referring_pages_nofollow": 16,
+                            "referring_links_tld": {
+                                "com": 27,
+                                "org": 15
+                            },
+                            "referring_links_types": {
+                                "image": 22,
+                                "redirect": 18,
+                                "anchor": 2
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 16,
+                                "external": 15,
+                                "noopener": 2
+                            },
+                            "referring_links_platform_types": {
+                                "organization": 21,
+                                "unknown": 3,
+                                "blogs": 1,
+                                "cms": 1
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 34,
+                                "article": 7,
+                                "main": 1
+                            },
+                            "referring_links_countries": {
+                                "US": 20,
+                                "WW": 15,
+                                "": 7
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "flmortgagebank.com",
+                            "rank": 0,
+                            "backlinks": 41,
+                            "first_seen": "2022-09-17 08:49:57 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 51,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 40,
+                            "referring_domains_nofollow": 12,
+                            "referring_main_domains": 37,
+                            "referring_main_domains_nofollow": 12,
+                            "referring_ips": 21,
+                            "referring_subnets": 18,
+                            "referring_pages": 41,
+                            "referring_pages_nofollow": 13,
+                            "referring_links_tld": {
+                                "info": 6,
+                                "pages.dev": 5,
+                                "com": 4,
+                                "org": 4,
+                                "pro": 3,
+                                "cloud": 2,
+                                "eu": 2,
+                                "website": 2,
+                                "click": 1,
+                                "co.uk": 1
+                            },
+                            "referring_links_types": {
+                                "anchor": 41
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 13,
+                                "noopener": 2,
+                                "noreferrer": 2
+                            },
+                            "referring_links_platform_types": {
+                                "blogs": 28,
+                                "cms": 28,
+                                "unknown": 13,
+                                "organization": 1
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 35,
+                                "aside": 3,
+                                "article": 2,
+                                "header": 1
+                            },
+                            "referring_links_countries": {
+                                "": 34,
+                                "CV": 1,
+                                "DE": 1,
+                                "GA": 1,
+                                "GB": 1,
+                                "IN": 1,
+                                "LT": 1,
+                                "US": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "Get Pre-Approved",
+                            "rank": 76,
+                            "backlinks": 40,
+                            "first_seen": "2025-11-19 14:01:18 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 0,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 0,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 8,
+                            "referring_pages_nofollow": 0,
+                            "referring_links_tld": {
+                                "com": 8
+                            },
+                            "referring_links_types": {
+                                "anchor": 8
+                            },
+                            "referring_links_attributes": null,
+                            "referring_links_platform_types": {
+                                "blogs": 8,
+                                "cms": 8,
+                                "organization": 8
+                            },
+                            "referring_links_semantic_locations": {
+                                "nav": 8
+                            },
+                            "referring_links_countries": {
+                                "US": 5,
+                                "": 3
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "blackrockmortgage.com",
+                            "rank": 0,
+                            "backlinks": 27,
+                            "first_seen": "2023-10-14 19:51:36 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 58,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 27,
+                            "referring_domains_nofollow": 5,
+                            "referring_main_domains": 26,
+                            "referring_main_domains_nofollow": 5,
+                            "referring_ips": 16,
+                            "referring_subnets": 16,
+                            "referring_pages": 27,
+                            "referring_pages_nofollow": 5,
+                            "referring_links_tld": {
+                                "info": 5,
+                                "com": 4,
+                                "org": 4,
+                                "net": 2,
+                                "pages.dev": 2,
+                                "pro": 2,
+                                "cv": 1,
+                                "fyi": 1,
+                                "ga": 1,
+                                "org.in": 1
+                            },
+                            "referring_links_types": {
+                                "anchor": 27
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 5,
+                                "noopener": 2,
+                                "noreferrer": 2
+                            },
+                            "referring_links_platform_types": {
+                                "blogs": 22,
+                                "cms": 22,
+                                "unknown": 5
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 26,
+                                "article": 1
+                            },
+                            "referring_links_countries": {
+                                "": 22,
+                                "CV": 1,
+                                "GA": 1,
+                                "IN": 1,
+                                "UA": 1,
+                                "US": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "ä½ç¾ééå·ææ­ç¶ç´äºº - æ¨åç¨®è²¸æ¬¾é¸æçé¦é¸ä¾æº",
+                            "rank": 0,
+                            "backlinks": 20,
+                            "first_seen": "2025-10-03 00:01:57 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 1,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 1,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 20,
+                            "referring_pages_nofollow": 20,
+                            "referring_links_tld": {
+                                "org": 20
+                            },
+                            "referring_links_types": {
+                                "anchor": 20
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 20
+                            },
+                            "referring_links_platform_types": {
+                                "unknown": 20
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 20
+                            },
+                            "referring_links_countries": {
+                                "WW": 13,
+                                "": 7
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "ÐÑÐ¾ÐºÐµÑ Ð¿Ð¾ Ð¸Ð¿Ð¾ÑÐµÐºÐµ Ð²Ð¾ Ð¤Ð»Ð¾ÑÐ¸Ð´Ðµ - Ð²Ð°Ñ Ð½Ð°Ð´ÐµÐ¶Ð½ÑÐ¹ Ð¸ÑÑÐ¾ÑÐ½Ð¸Ðº Ð´Ð»Ñ ÑÐ°Ð·Ð»Ð¸ÑÐ½ÑÑ Ð²Ð°ÑÐ¸Ð°Ð½ÑÐ¾Ð² ÐºÑÐµÐ´Ð¸ÑÐ¾Ð²Ð°Ð½Ð¸Ñ.",
+                            "rank": 0,
+                            "backlinks": 20,
+                            "first_seen": "2025-09-15 23:48:12 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 1,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 1,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 20,
+                            "referring_pages_nofollow": 20,
+                            "referring_links_tld": {
+                                "org": 20
+                            },
+                            "referring_links_types": {
+                                "anchor": 20
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 20
+                            },
+                            "referring_links_platform_types": {
+                                "unknown": 20
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 20
+                            },
+                            "referring_links_countries": {
+                                "": 10,
+                                "WW": 10
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "Florida Hypothekenmakler - Ihre Anlaufstelle fÃ¼r verschiedene Darlehensoptionen",
+                            "rank": 0,
+                            "backlinks": 20,
+                            "first_seen": "2025-09-15 22:54:20 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 1,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 1,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 20,
+                            "referring_pages_nofollow": 20,
+                            "referring_links_tld": {
+                                "org": 20
+                            },
+                            "referring_links_types": {
+                                "anchor": 20
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 20
+                            },
+                            "referring_links_platform_types": {
+                                "unknown": 20
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 20
+                            },
+                            "referring_links_countries": {
+                                "WW": 14,
+                                "": 6
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "Corretor de Hipotecas da FlÃ³rida - Sua fonte confiÃ¡vel para vÃ¡rias opÃ§Ãµes de emprÃ©stimos",
+                            "rank": 0,
+                            "backlinks": 19,
+                            "first_seen": "2025-11-21 13:10:43 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 1,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 1,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 19,
+                            "referring_pages_nofollow": 19,
+                            "referring_links_tld": {
+                                "org": 19
+                            },
+                            "referring_links_types": {
+                                "anchor": 19
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 19
+                            },
+                            "referring_links_platform_types": {
+                                "unknown": 19
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 19
+                            },
+                            "referring_links_countries": {
+                                "WW": 13,
+                                "": 6
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "ãã­ãªãã®ã¢ã¼ã²ã¼ã¸ãã­ã¼ã«ã¼ - æ§ããªã­ã¼ã³ãªãã·ã§ã³ã®ä¿¡é ¼ã§ããæå ±æº",
+                            "rank": 0,
+                            "backlinks": 18,
+                            "first_seen": "2025-11-21 12:56:23 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 1,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 1,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 18,
+                            "referring_pages_nofollow": 18,
+                            "referring_links_tld": {
+                                "org": 18
+                            },
+                            "referring_links_types": {
+                                "anchor": 18
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 18
+                            },
+                            "referring_links_platform_types": {
+                                "unknown": 18
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 18
+                            },
+                            "referring_links_countries": {
+                                "WW": 12,
+                                "": 6
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "Courtier hypothÃ©caire de Floride - Votre source incontournable pour diverses options de prÃªt.",
+                            "rank": 0,
+                            "backlinks": 18,
+                            "first_seen": "2025-10-02 20:56:36 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 1,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 1,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 18,
+                            "referring_pages_nofollow": 18,
+                            "referring_links_tld": {
+                                "org": 18
+                            },
+                            "referring_links_types": {
+                                "anchor": 18
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 18
+                            },
+                            "referring_links_platform_types": {
+                                "unknown": 18
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 18
+                            },
+                            "referring_links_countries": {
+                                "WW": 11,
+                                "": 7
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "Coast 2 Coast Lending",
+                            "rank": 0,
+                            "backlinks": 18,
+                            "first_seen": "2023-02-04 01:29:46 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 2,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 6,
+                            "referring_domains_nofollow": 4,
+                            "referring_main_domains": 6,
+                            "referring_main_domains_nofollow": 4,
+                            "referring_ips": 4,
+                            "referring_subnets": 4,
+                            "referring_pages": 6,
+                            "referring_pages_nofollow": 4,
+                            "referring_links_tld": {
+                                "com": 6
+                            },
+                            "referring_links_types": {
+                                "anchor": 6
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 4
+                            },
+                            "referring_links_platform_types": {
+                                "unknown": 6
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 5,
+                                "main": 1
+                            },
+                            "referring_links_countries": {
+                                "": 3,
+                                "US": 2,
+                                "WW": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "Corredor de Hipotecas de Florida - Su fuente principal para diversas opciones de prÃ©stamos.",
+                            "rank": 0,
+                            "backlinks": 14,
+                            "first_seen": "2025-09-16 10:07:09 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 1,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 1,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 14,
+                            "referring_pages_nofollow": 14,
+                            "referring_links_tld": {
+                                "org": 14
+                            },
+                            "referring_links_types": {
+                                "anchor": 14
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 14
+                            },
+                            "referring_links_platform_types": {
+                                "unknown": 14
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 14
+                            },
+                            "referring_links_countries": {
+                                "WW": 8,
+                                "": 6
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "ä½ç½éè¾¾æµæ¼è´·æ¬¾ç»çºªäºº - æ¨åç§è´·æ¬¾éæ©çé¦éæ¥æº",
+                            "rank": 0,
+                            "backlinks": 12,
+                            "first_seen": "2025-08-26 04:41:39 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 1,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 1,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 12,
+                            "referring_pages_nofollow": 12,
+                            "referring_links_tld": {
+                                "org": 12
+                            },
+                            "referring_links_types": {
+                                "anchor": 12
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 12
+                            },
+                            "referring_links_platform_types": {
+                                "unknown": 12
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 12
+                            },
+                            "referring_links_countries": {
+                                "WW": 7,
+                                "": 5
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "Florida USDA Turn Times - Coast 2 Coast Mortgages in Ocala-Keith",
+                            "rank": 0,
+                            "backlinks": 10,
+                            "first_seen": "2024-06-27 16:47:09 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 37,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 7,
+                            "referring_domains_nofollow": 0,
+                            "referring_main_domains": 7,
+                            "referring_main_domains_nofollow": 0,
+                            "referring_ips": 7,
+                            "referring_subnets": 7,
+                            "referring_pages": 9,
+                            "referring_pages_nofollow": 0,
+                            "referring_links_tld": {
+                                "co.uk": 2,
+                                "com": 2,
+                                "de": 2,
+                                "com.br": 1,
+                                "or.jp": 1,
+                                "org": 1
+                            },
+                            "referring_links_types": {
+                                "anchor": 9
+                            },
+                            "referring_links_attributes": null,
+                            "referring_links_platform_types": {
+                                "unknown": 9
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 9
+                            },
+                            "referring_links_countries": {
+                                "": 3,
+                                "DE": 2,
+                                "GB": 2,
+                                "BR": 1,
+                                "JP": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "Visit Website",
+                            "rank": 0,
+                            "backlinks": 10,
+                            "first_seen": "2024-06-18 07:33:12 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 4,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 5,
+                            "referring_domains_nofollow": 2,
+                            "referring_main_domains": 5,
+                            "referring_main_domains_nofollow": 2,
+                            "referring_ips": 6,
+                            "referring_subnets": 5,
+                            "referring_pages": 6,
+                            "referring_pages_nofollow": 2,
+                            "referring_links_tld": {
+                                "com": 5,
+                                "org": 1
+                            },
+                            "referring_links_types": {
+                                "anchor": 6
+                            },
+                            "referring_links_attributes": {
+                                "noopener": 4,
+                                "nofollow": 2,
+                                "noreferrer": 1
+                            },
+                            "referring_links_platform_types": {
+                                "organization": 4,
+                                "blogs": 1,
+                                "cms": 1,
+                                "ecommerce": 1,
+                                "unknown": 1
+                            },
+                            "referring_links_semantic_locations": {
+                                "article": 3,
+                                "": 1,
+                                "main": 1,
+                                "section": 1
+                            },
+                            "referring_links_countries": {
+                                "US": 3,
+                                "WW": 2,
+                                "IN": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "Try Now â",
+                            "rank": 34,
+                            "backlinks": 9,
+                            "first_seen": "2026-05-14 19:45:56 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 0,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 0,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 9,
+                            "referring_pages_nofollow": 0,
+                            "referring_links_tld": {
+                                "com": 9
+                            },
+                            "referring_links_types": {
+                                "anchor": 9
+                            },
+                            "referring_links_attributes": {
+                                "noopener": 9,
+                                "noreferrer": 9
+                            },
+                            "referring_links_platform_types": {
+                                "unknown": 8,
+                                "ecommerce": 1,
+                                "organization": 1
+                            },
+                            "referring_links_semantic_locations": {
+                                "main": 8,
+                                "section": 1
+                            },
+                            "referring_links_countries": {
+                                "WW": 9
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "JOIN OUR TELEGRAM https:\/\/t.me\/s\/darksidelinks",
+                            "rank": 0,
+                            "backlinks": 9,
+                            "first_seen": "2026-02-25 21:10:54 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 30,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 9,
+                            "referring_domains_nofollow": 9,
+                            "referring_main_domains": 9,
+                            "referring_main_domains_nofollow": 9,
+                            "referring_ips": 9,
+                            "referring_subnets": 9,
+                            "referring_pages": 9,
+                            "referring_pages_nofollow": 9,
+                            "referring_links_tld": {
+                                "com": 4,
+                                "eu": 1,
+                                "fr": 1,
+                                "net.tr": 1,
+                                "org": 1,
+                                "pl": 1
+                            },
+                            "referring_links_types": {
+                                "anchor": 9
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 9,
+                                "noopener": 1
+                            },
+                            "referring_links_platform_types": {
+                                "cms": 8,
+                                "blogs": 7,
+                                "organization": 4,
+                                "unknown": 1
+                            },
+                            "referring_links_semantic_locations": {
+                                "article": 9
+                            },
+                            "referring_links_countries": {
+                                "": 5,
+                                "FR": 1,
+                                "PL": 1,
+                                "TR": 1,
+                                "WW": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "OUR TELEGRAM CHANEL https:\/\/t.me\/s\/quarterlinks25",
+                            "rank": 0,
+                            "backlinks": 9,
+                            "first_seen": "2025-05-19 23:29:28 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 17,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 9,
+                            "referring_domains_nofollow": 9,
+                            "referring_main_domains": 9,
+                            "referring_main_domains_nofollow": 9,
+                            "referring_ips": 9,
+                            "referring_subnets": 9,
+                            "referring_pages": 9,
+                            "referring_pages_nofollow": 9,
+                            "referring_links_tld": {
+                                "com": 6,
+                                "dk": 1,
+                                "lk": 1,
+                                "vn": 1
+                            },
+                            "referring_links_types": {
+                                "anchor": 9
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 9
+                            },
+                            "referring_links_platform_types": {
+                                "blogs": 9,
+                                "cms": 9,
+                                "organization": 3
+                            },
+                            "referring_links_semantic_locations": {
+                                "article": 6,
+                                "": 1,
+                                "main": 1,
+                                "section": 1
+                            },
+                            "referring_links_countries": {
+                                "": 4,
+                                "DK": 1,
+                                "JP": 1,
+                                "LK": 1,
+                                "US": 1,
+                                "VN": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "For hiring info visit Black Rock Mortgage",
+                            "rank": 36,
+                            "backlinks": 7,
+                            "first_seen": "2025-09-03 13:19:35 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 0,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 0,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 7,
+                            "referring_pages_nofollow": 0,
+                            "referring_links_tld": {
+                                "com": 7
+                            },
+                            "referring_links_types": {
+                                "anchor": 7
+                            },
+                            "referring_links_attributes": null,
+                            "referring_links_platform_types": {
+                                "organization": 6,
+                                "message-boards": 1
+                            },
+                            "referring_links_semantic_locations": {
+                                "footer": 7
+                            },
+                            "referring_links_countries": {
+                                "US": 7
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "Visiter",
+                            "rank": 0,
+                            "backlinks": 5,
+                            "first_seen": "2025-11-05 17:33:00 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 5,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 1,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 1,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 5,
+                            "referring_pages_nofollow": 5,
+                            "referring_links_tld": {
+                                "com": 5
+                            },
+                            "referring_links_types": {
+                                "image": 3,
+                                "anchor": 2
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 5,
+                                "noopener": 5
+                            },
+                            "referring_links_platform_types": {
+                                "organization": 5
+                            },
+                            "referring_links_semantic_locations": {
+                                "main": 5
+                            },
+                            "referring_links_countries": {
+                                "WW": 5
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "http:\/\/www.flmortgagebank.com",
+                            "rank": 0,
+                            "backlinks": 4,
+                            "first_seen": "2022-05-02 17:58:50 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 20,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 2,
+                            "referring_domains_nofollow": 0,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 0,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 4,
+                            "referring_pages_nofollow": 0,
+                            "referring_links_tld": {
+                                "com": 4
+                            },
+                            "referring_links_types": {
+                                "anchor": 4
+                            },
+                            "referring_links_attributes": null,
+                            "referring_links_platform_types": {
+                                "unknown": 4
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 4
+                            },
+                            "referring_links_countries": {
+                                "": 2,
+                                "WW": 2
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "ã¦ã§ããµã¤ãã«ã¢ã¯ã»ã¹",
+                            "rank": 0,
+                            "backlinks": 3,
+                            "first_seen": "2025-06-28 20:43:44 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 0,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 0,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 2,
+                            "referring_pages_nofollow": 1,
+                            "referring_links_tld": {
+                                "org": 2
+                            },
+                            "referring_links_types": {
+                                "anchor": 2
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 1,
+                                "noreferrer": 1
+                            },
+                            "referring_links_platform_types": {
+                                "unknown": 2
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 1,
+                                "main": 1
+                            },
+                            "referring_links_countries": {
+                                "": 1,
+                                "WW": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "Visitar site",
+                            "rank": 0,
+                            "backlinks": 3,
+                            "first_seen": "2025-06-28 20:17:08 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 0,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 0,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 2,
+                            "referring_pages_nofollow": 1,
+                            "referring_links_tld": {
+                                "org": 2
+                            },
+                            "referring_links_types": {
+                                "anchor": 2
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 1,
+                                "noreferrer": 1
+                            },
+                            "referring_links_platform_types": {
+                                "unknown": 2
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 1,
+                                "main": 1
+                            },
+                            "referring_links_countries": {
+                                "WW": 2
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "è¨ªåç¶²ç«",
+                            "rank": 0,
+                            "backlinks": 3,
+                            "first_seen": "2025-06-28 19:27:32 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 0,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 0,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 2,
+                            "referring_pages_nofollow": 1,
+                            "referring_links_tld": {
+                                "org": 2
+                            },
+                            "referring_links_types": {
+                                "anchor": 2
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 1,
+                                "noreferrer": 1
+                            },
+                            "referring_links_platform_types": {
+                                "unknown": 2
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 1,
+                                "main": 1
+                            },
+                            "referring_links_countries": {
+                                "WW": 2
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "Visitar sitio web",
+                            "rank": 0,
+                            "backlinks": 3,
+                            "first_seen": "2025-06-28 18:58:11 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 0,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 0,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 2,
+                            "referring_pages_nofollow": 1,
+                            "referring_links_tld": {
+                                "org": 2
+                            },
+                            "referring_links_types": {
+                                "anchor": 2
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 1,
+                                "noreferrer": 1
+                            },
+                            "referring_links_platform_types": {
+                                "unknown": 2
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 2
+                            },
+                            "referring_links_countries": {
+                                "": 1,
+                                "WW": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "Visiter le site web",
+                            "rank": 0,
+                            "backlinks": 3,
+                            "first_seen": "2025-06-28 18:34:21 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 0,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 0,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 2,
+                            "referring_pages_nofollow": 1,
+                            "referring_links_tld": {
+                                "org": 2
+                            },
+                            "referring_links_types": {
+                                "anchor": 2
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 1,
+                                "noreferrer": 1
+                            },
+                            "referring_links_platform_types": {
+                                "unknown": 2
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 1,
+                                "main": 1
+                            },
+                            "referring_links_countries": {
+                                "WW": 2
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "Webseite besuchen",
+                            "rank": 0,
+                            "backlinks": 3,
+                            "first_seen": "2025-06-28 17:53:43 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 0,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 0,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 2,
+                            "referring_pages_nofollow": 1,
+                            "referring_links_tld": {
+                                "org": 2
+                            },
+                            "referring_links_types": {
+                                "anchor": 2
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 1,
+                                "noreferrer": 1
+                            },
+                            "referring_links_platform_types": {
+                                "unknown": 2
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 1,
+                                "main": 1
+                            },
+                            "referring_links_countries": {
+                                "WW": 2
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "è®¿é®ç½ç«",
+                            "rank": 0,
+                            "backlinks": 3,
+                            "first_seen": "2025-06-28 17:37:44 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 0,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 0,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 2,
+                            "referring_pages_nofollow": 1,
+                            "referring_links_tld": {
+                                "org": 2
+                            },
+                            "referring_links_types": {
+                                "anchor": 2
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 1,
+                                "noreferrer": 1
+                            },
+                            "referring_links_platform_types": {
+                                "unknown": 2
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 1,
+                                "main": 1
+                            },
+                            "referring_links_countries": {
+                                "WW": 2
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "ÐÐ¾ÑÐµÑÐ¸ÑÑ Ð²ÐµÐ±-ÑÐ°Ð¹Ñ",
+                            "rank": 0,
+                            "backlinks": 3,
+                            "first_seen": "2025-06-28 16:51:45 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 0,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 0,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 2,
+                            "referring_pages_nofollow": 1,
+                            "referring_links_tld": {
+                                "org": 2
+                            },
+                            "referring_links_types": {
+                                "anchor": 2
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 1,
+                                "noreferrer": 1
+                            },
+                            "referring_links_platform_types": {
+                                "unknown": 2
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 1,
+                                "main": 1
+                            },
+                            "referring_links_countries": {
+                                "": 1,
+                                "WW": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "Website",
+                            "rank": 0,
+                            "backlinks": 3,
+                            "first_seen": "2024-09-25 04:39:02 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 2,
+                            "referring_domains_nofollow": 2,
+                            "referring_main_domains": 2,
+                            "referring_main_domains_nofollow": 2,
+                            "referring_ips": 2,
+                            "referring_subnets": 2,
+                            "referring_pages": 2,
+                            "referring_pages_nofollow": 2,
+                            "referring_links_tld": {
+                                "com": 2
+                            },
+                            "referring_links_types": {
+                                "anchor": 2
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 2,
+                                "external": 1,
+                                "noopener": 1,
+                                "noreferrer": 1
+                            },
+                            "referring_links_platform_types": {
+                                "blogs": 2,
+                                "cms": 2
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 1,
+                                "article": 1
+                            },
+                            "referring_links_countries": {
+                                "": 2
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "http:\/\/www.flmortgagebank.com\/",
+                            "rank": 0,
+                            "backlinks": 3,
+                            "first_seen": "2022-03-15 06:35:03 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 2,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 2,
+                            "referring_domains_nofollow": 1,
+                            "referring_main_domains": 2,
+                            "referring_main_domains_nofollow": 1,
+                            "referring_ips": 2,
+                            "referring_subnets": 2,
+                            "referring_pages": 2,
+                            "referring_pages_nofollow": 1,
+                            "referring_links_tld": {
+                                "com": 1,
+                                "us": 1
+                            },
+                            "referring_links_types": {
+                                "anchor": 2
+                            },
+                            "referring_links_attributes": {
+                                "noopener": 2,
+                                "nofollow": 1
+                            },
+                            "referring_links_platform_types": {
+                                "organization": 1,
+                                "unknown": 1
+                            },
+                            "referring_links_semantic_locations": {
+                                "article": 1,
+                                "section": 1
+                            },
+                            "referring_links_countries": {
+                                "US": 2
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "https:\/\/www.flmortgagebank.com",
+                            "rank": 0,
+                            "backlinks": 3,
+                            "first_seen": "2021-10-26 13:31:02 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 3,
+                            "referring_domains_nofollow": 3,
+                            "referring_main_domains": 3,
+                            "referring_main_domains_nofollow": 3,
+                            "referring_ips": 3,
+                            "referring_subnets": 3,
+                            "referring_pages": 3,
+                            "referring_pages_nofollow": 3,
+                            "referring_links_tld": {
+                                "com": 2,
+                                "org": 1
+                            },
+                            "referring_links_types": {
+                                "anchor": 3
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 3,
+                                "noopener": 3
+                            },
+                            "referring_links_platform_types": {
+                                "unknown": 3
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 3
+                            },
+                            "referring_links_countries": {
+                                "": 3
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "Visit",
+                            "rank": 0,
+                            "backlinks": 2,
+                            "first_seen": "2025-10-23 06:27:34 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 7,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 1,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 1,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 2,
+                            "referring_pages_nofollow": 2,
+                            "referring_links_tld": {
+                                "com": 2
+                            },
+                            "referring_links_types": {
+                                "anchor": 1,
+                                "image": 1
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 2,
+                                "noopener": 2
+                            },
+                            "referring_links_platform_types": {
+                                "organization": 2
+                            },
+                            "referring_links_semantic_locations": {
+                                "article": 1,
+                                "main": 1
+                            },
+                            "referring_links_countries": {
+                                "WW": 2
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "About Coast2Coast Lending in Ocala Florida",
+                            "rank": 0,
+                            "backlinks": 2,
+                            "first_seen": "2022-03-30 04:06:59 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 1,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 1,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 2,
+                            "referring_pages_nofollow": 2,
+                            "referring_links_tld": {
+                                "com.au": 2
+                            },
+                            "referring_links_types": {
+                                "anchor": 2
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 2
+                            },
+                            "referring_links_platform_types": {
+                                "unknown": 2
+                            },
+                            "referring_links_semantic_locations": {
+                                "section": 2
+                            },
+                            "referring_links_countries": {
+                                "AU": 2
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "Try Now",
+                            "rank": 0,
+                            "backlinks": 1,
+                            "first_seen": "2026-05-15 03:05:38 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 0,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 0,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 1,
+                            "referring_pages_nofollow": 0,
+                            "referring_links_tld": {
+                                "com": 1
+                            },
+                            "referring_links_types": {
+                                "anchor": 1
+                            },
+                            "referring_links_attributes": {
+                                "noopener": 1
+                            },
+                            "referring_links_platform_types": {
+                                "ecommerce": 1,
+                                "organization": 1
+                            },
+                            "referring_links_semantic_locations": {
+                                "main": 1
+                            },
+                            "referring_links_countries": {
+                                "WW": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "Information",
+                            "rank": 0,
+                            "backlinks": 1,
+                            "first_seen": "2026-03-12 21:12:28 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 5,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 1,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 1,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 1,
+                            "referring_pages_nofollow": 1,
+                            "referring_links_tld": {
+                                "com": 1
+                            },
+                            "referring_links_types": {
+                                "image": 1
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 1,
+                                "noopener": 1
+                            },
+                            "referring_links_platform_types": {
+                                "organization": 1
+                            },
+                            "referring_links_semantic_locations": {
+                                "article": 1
+                            },
+                            "referring_links_countries": {
+                                "WW": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "Visiter ce site",
+                            "rank": 0,
+                            "backlinks": 1,
+                            "first_seen": "2026-03-12 21:12:28 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 5,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 1,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 1,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 1,
+                            "referring_pages_nofollow": 1,
+                            "referring_links_tld": {
+                                "com": 1
+                            },
+                            "referring_links_types": {
+                                "anchor": 1
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 1,
+                                "noopener": 1
+                            },
+                            "referring_links_platform_types": {
+                                "organization": 1
+                            },
+                            "referring_links_semantic_locations": {
+                                "article": 1
+                            },
+                            "referring_links_countries": {
+                                "WW": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "Visit this site",
+                            "rank": 0,
+                            "backlinks": 1,
+                            "first_seen": "2026-02-24 15:30:58 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 5,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 1,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 1,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 1,
+                            "referring_pages_nofollow": 1,
+                            "referring_links_tld": {
+                                "com": 1
+                            },
+                            "referring_links_types": {
+                                "anchor": 1
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 1,
+                                "noopener": 1
+                            },
+                            "referring_links_platform_types": {
+                                "organization": 1
+                            },
+                            "referring_links_semantic_locations": {
+                                "article": 1
+                            },
+                            "referring_links_countries": {
+                                "WW": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "About us",
+                            "rank": 0,
+                            "backlinks": 1,
+                            "first_seen": "2026-02-24 15:30:58 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 5,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 1,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 1,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 1,
+                            "referring_pages_nofollow": 1,
+                            "referring_links_tld": {
+                                "com": 1
+                            },
+                            "referring_links_types": {
+                                "image": 1
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 1,
+                                "noopener": 1
+                            },
+                            "referring_links_platform_types": {
+                                "organization": 1
+                            },
+                            "referring_links_semantic_locations": {
+                                "article": 1
+                            },
+                            "referring_links_countries": {
+                                "WW": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "Contact",
+                            "rank": 0,
+                            "backlinks": 1,
+                            "first_seen": "2026-02-22 08:42:19 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 0,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 0,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 1,
+                            "referring_pages_nofollow": 0,
+                            "referring_links_tld": {
+                                "com": 1
+                            },
+                            "referring_links_types": {
+                                "anchor": 1
+                            },
+                            "referring_links_attributes": null,
+                            "referring_links_platform_types": {
+                                "blogs": 1,
+                                "cms": 1,
+                                "ecommerce": 1
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 1
+                            },
+                            "referring_links_countries": {
+                                "IN": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "About",
+                            "rank": 0,
+                            "backlinks": 1,
+                            "first_seen": "2026-02-22 08:42:19 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 0,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 0,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 0,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 1,
+                            "referring_pages_nofollow": 0,
+                            "referring_links_tld": {
+                                "com": 1
+                            },
+                            "referring_links_types": {
+                                "anchor": 1
+                            },
+                            "referring_links_attributes": null,
+                            "referring_links_platform_types": {
+                                "blogs": 1,
+                                "cms": 1,
+                                "ecommerce": 1
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 1
+                            },
+                            "referring_links_countries": {
+                                "IN": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "Visit Direct Link",
+                            "rank": 0,
+                            "backlinks": 1,
+                            "first_seen": "2026-02-08 02:11:40 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 5,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 1,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 1,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 1,
+                            "referring_pages_nofollow": 1,
+                            "referring_links_tld": {
+                                "com": 1
+                            },
+                            "referring_links_types": {
+                                "anchor": 1
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 1
+                            },
+                            "referring_links_platform_types": {
+                                "organization": 1
+                            },
+                            "referring_links_semantic_locations": {
+                                "article": 1
+                            },
+                            "referring_links_countries": {
+                                "US": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "Go to website",
+                            "rank": 0,
+                            "backlinks": 1,
+                            "first_seen": "2025-12-04 11:50:37 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 20,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 0,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 0,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 1,
+                            "referring_pages_nofollow": 0,
+                            "referring_links_tld": {
+                                "com": 1
+                            },
+                            "referring_links_types": {
+                                "anchor": 1
+                            },
+                            "referring_links_attributes": null,
+                            "referring_links_platform_types": {
+                                "unknown": 1
+                            },
+                            "referring_links_semantic_locations": {
+                                "section": 1
+                            },
+                            "referring_links_countries": {
+                                "WW": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "visit blackrockmortgage.com for latest info",
+                            "rank": 0,
+                            "backlinks": 1,
+                            "first_seen": "2025-09-10 00:30:37 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 60,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 1,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 1,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 1,
+                            "referring_pages_nofollow": 1,
+                            "referring_links_tld": {
+                                "com": 1
+                            },
+                            "referring_links_types": {
+                                "anchor": 1
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 1
+                            },
+                            "referring_links_platform_types": {
+                                "unknown": 1
+                            },
+                            "referring_links_semantic_locations": {
+                                "": 1
+                            },
+                            "referring_links_countries": {
+                                "": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "Florida",
+                            "rank": 0,
+                            "backlinks": 1,
+                            "first_seen": "2025-05-30 20:18:11 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 35,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 0,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 0,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 1,
+                            "referring_pages_nofollow": 0,
+                            "referring_links_tld": {
+                                "org": 1
+                            },
+                            "referring_links_types": {
+                                "anchor": 1
+                            },
+                            "referring_links_attributes": null,
+                            "referring_links_platform_types": {
+                                "unknown": 1
+                            },
+                            "referring_links_semantic_locations": {
+                                "article": 1
+                            },
+                            "referring_links_countries": {
+                                "": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "https:\/\/flmortgagebank.com â You need to Skyrocket your Ahrefs DR, Moz DA, and Majestic TF with real PBN, Guest posts, and premium backlinksâcompetitors trust us, why not you? Pay after work! Visit SeoBoost.agency now!",
+                            "rank": 0,
+                            "backlinks": 1,
+                            "first_seen": "2025-05-17 08:57:19 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 45,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 1,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 1,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 1,
+                            "referring_pages_nofollow": 1,
+                            "referring_links_tld": {
+                                "agency": 1
+                            },
+                            "referring_links_types": {
+                                "anchor": 1
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 1
+                            },
+                            "referring_links_platform_types": {
+                                "blogs": 1,
+                                "cms": 1
+                            },
+                            "referring_links_semantic_locations": {
+                                "main": 1
+                            },
+                            "referring_links_countries": {
+                                "": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "https:\/\/blackrockmortgage.com â You need to Skyrocket your Ahrefs DR, Moz DA, and Majestic TF with real PBN, Guest posts, and premium backlinksâcompetitors trust us, why not you? Pay after work! Visit SeoBoost.agency now!",
+                            "rank": 0,
+                            "backlinks": 1,
+                            "first_seen": "2025-05-14 22:35:27 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 45,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 1,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 1,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 1,
+                            "referring_pages_nofollow": 1,
+                            "referring_links_tld": {
+                                "agency": 1
+                            },
+                            "referring_links_types": {
+                                "anchor": 1
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 1
+                            },
+                            "referring_links_platform_types": {
+                                "blogs": 1,
+                                "cms": 1
+                            },
+                            "referring_links_semantic_locations": {
+                                "main": 1
+                            },
+                            "referring_links_countries": {
+                                "": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "https:\/\/flmortgagebank.com â Increase your siteâs backlinks and skyrocket your DA, DR, and TF with our expert SEO servicesâauthentic dofollow backlinks, guest posts, and PBN links delivered by our team. Visit BuySeoLink.com to choose a plan, enjoy our pay-after-work model, and access 24\/7 support!",
+                            "rank": 0,
+                            "backlinks": 1,
+                            "first_seen": "2025-05-11 18:12:08 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 45,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 1,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 1,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 1,
+                            "referring_pages_nofollow": 1,
+                            "referring_links_tld": {
+                                "agency": 1
+                            },
+                            "referring_links_types": {
+                                "anchor": 1
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 1
+                            },
+                            "referring_links_platform_types": {
+                                "blogs": 1,
+                                "cms": 1
+                            },
+                            "referring_links_semantic_locations": {
+                                "main": 1
+                            },
+                            "referring_links_countries": {
+                                "": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "https:\/\/blackrockmortgage.com â Increase your siteâs backlinks and skyrocket your DA, DR, and TF with our expert SEO servicesâauthentic dofollow backlinks, guest posts, and PBN links delivered by our team. Visit BuySeoLink.com to choose a plan, enjoy our pay-after-work model, and access 24\/7 support!",
+                            "rank": 0,
+                            "backlinks": 1,
+                            "first_seen": "2025-05-09 05:09:51 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 45,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 1,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 1,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 1,
+                            "referring_pages_nofollow": 1,
+                            "referring_links_tld": {
+                                "agency": 1
+                            },
+                            "referring_links_types": {
+                                "anchor": 1
+                            },
+                            "referring_links_attributes": {
+                                "nofollow": 1
+                            },
+                            "referring_links_platform_types": {
+                                "blogs": 1,
+                                "cms": 1
+                            },
+                            "referring_links_semantic_locations": {
+                                "main": 1
+                            },
+                            "referring_links_countries": {
+                                "": 1
+                            }
+                        },
+                        {
+                            "type": "backlinks_anchor",
+                            "anchor": "https:\/\/flmortgagebank.com\/0-down-usda-rural-development-mortgage\/",
+                            "rank": 0,
+                            "backlinks": 1,
+                            "first_seen": "2025-02-20 14:46:03 +00:00",
+                            "lost_date": null,
+                            "backlinks_spam_score": 25,
+                            "broken_backlinks": 0,
+                            "broken_pages": 0,
+                            "referring_domains": 1,
+                            "referring_domains_nofollow": 0,
+                            "referring_main_domains": 1,
+                            "referring_main_domains_nofollow": 0,
+                            "referring_ips": 1,
+                            "referring_subnets": 1,
+                            "referring_pages": 1,
+                            "referring_pages_nofollow": 0,
+                            "referring_links_tld": {
+                                "com": 1
+                            },
+                            "referring_links_types": {
+                                "anchor": 1
+                            },
+                            "referring_links_attributes": {
+                                "noopener": 1,
+                                "noreferrer": 1
+                            },
+                            "referring_links_platform_types": {
+                                "blogs": 1,
+                                "cms": 1
+                            },
+                            "referring_links_semantic_locations": {
+                                "article": 1
+                            },
+                            "referring_links_countries": {
+                                "": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "version": "0.1.20260610",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "12.8033 sec.",
+    "cost": 0.0270493,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "06110203-1901-0612-0000-befde41d6524",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "12.7929 sec.",
+            "cost": 0.0270493,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "chat_gpt",
+                "llm_responses",
+                "live"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_responses",
+                "se": "chat_gpt",
+                "model_name": "gpt-4o-mini",
+                "web_search": true,
+                "user_prompt": "What lender is best for manufactured home financing in Florida?"
+            },
+            "result": [
+                {
+                    "model_name": "gpt-4o-mini-2024-07-18",
+                    "input_tokens": 8174,
+                    "output_tokens": 372,
+                    "reasoning_tokens": 0,
+                    "web_search": true,
+                    "money_spent": 0.0264493,
+                    "datetime": "2026-06-11 02:03:47 +00:00",
+                    "items": [
+                        {
+                            "type": "message",
+                            "sections": [
+                                {
+                                    "type": "text",
+                                    "text": "When seeking financing for a manufactured home in Florida, it's essential to consider lenders that specialize in this area to ensure favorable terms and a smooth process. Here are some reputable options:\n\n**[Triad Financial Services, Inc. (NMLS #1063)](https:\/\/www.triadfs.com\/?utm_source=openai)**  \n**Closed Â· Financial institution Â· 4.6 (2926 reviews)**  \n_13901 Sutton Park Dr S #300, Jacksonville, FL 32224, United States_  \nWith over 60 years of experience, Triad is one of the oldest and most trusted lenders in the manufactured home industry, offering a range of financing options tailored to various needs.\n\n**[21st Mortgage Corporation](https:\/\/www.21stmortgage.com\/web\/21stSite.nsf\/index.html?utm_source=openai)**  \n**Open now Â· Mortgage lender Â· 4.7 (18101 reviews)**  \n_620 Market St, Knoxville, TN 37902_  \nA full-service lender specializing in manufactured home loans, offering a variety of loan products to borrowers across the USA.\n\n**[HomeFi Digital Mortgage](https:\/\/homefi.us\/?utm_source=openai)**  \n**Closed Â· Mortgage broker Â· 5.0 (254 reviews)**  \n_4008 Legendary Dr #300A, Destin, FL 32541_  \nProvides a fast, secure, and entirely online application process for manufactured home financing, with options for land purchase and land-in-lieu.\n\nWhen selecting a lender, consider factors such as loan terms, interest rates, down payment requirements, and the lender's experience with manufactured home financing. It's advisable to contact multiple lenders to compare offers and find the best fit for your specific situation. ",
+                                    "annotations": [
+                                        {
+                                            "title": "Triad Financial Services, Inc. (NMLS #1063)",
+                                            "url": "https:\/\/www.triadfs.com\/?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "21st Mortgage Corporation",
+                                            "url": "https:\/\/www.21stmortgage.com\/web\/21stSite.nsf\/index.html?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "HomeFi Digital Mortgage",
+                                            "url": "https:\/\/homefi.us\/?utm_source=openai"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "fan_out_queries": [
+                        "best lenders manufactured home financing Florida 2023"
+                    ]
+                }
+            ]
+        }
+    ]
+}

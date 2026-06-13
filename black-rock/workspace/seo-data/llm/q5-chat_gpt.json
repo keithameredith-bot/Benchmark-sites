@@ -1,0 +1,77 @@
+{
+    "version": "0.1.20260610",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "4.2574 sec.",
+    "cost": 0.0270913,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "06110204-1901-0612-0000-5abfc7af1a79",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "4.2277 sec.",
+            "cost": 0.0270913,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "chat_gpt",
+                "llm_responses",
+                "live"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_responses",
+                "se": "chat_gpt",
+                "model_name": "gpt-4o-mini",
+                "web_search": true,
+                "user_prompt": "What are current USDA turn times in Florida and how do I check them?"
+            },
+            "result": [
+                {
+                    "model_name": "gpt-4o-mini-2024-07-18",
+                    "input_tokens": 8174,
+                    "output_tokens": 442,
+                    "reasoning_tokens": 0,
+                    "web_search": true,
+                    "money_spent": 0.0264913,
+                    "datetime": "2026-06-11 02:04:06 +00:00",
+                    "items": [
+                        {
+                            "type": "message",
+                            "sections": [
+                                {
+                                    "type": "text",
+                                    "text": "The term \"USDA turn times\" can refer to various processing times within the U.S. Department of Agriculture, such as loan processing, inspection services, or other administrative procedures. To provide accurate information, could you please specify which USDA service or program you're interested in?\n\nIn the meantime, here are some general guidelines on how to check processing times for USDA services in Florida:\n\n1. **Farm Service Agency (FSA):** For information on loan processing times or other services, contact the Florida FSA State Office at 4500 NW 27th Avenue, Building D-1, Gainesville, FL 32606, or call +1 352-379-4500. ([fsa.usda.gov](https:\/\/www.fsa.usda.gov\/state-offices\/florida?utm_source=openai))\n\n2. **Natural Resources Conservation Service (NRCS):** For inquiries related to conservation programs, reach out to the Florida NRCS State Office at 4500 NW 27th Avenue, Building A, Gainesville, FL 32606, or call 352-338-9500. ([nrcs.usda.gov](https:\/\/www.nrcs.usda.gov\/state-offices\/florida?utm_source=openai))\n\n3. **Agricultural Marketing Service (AMS):** For information on inspection services, contact the AMS Specialty Crops Program in Winter Haven, Florida, at 863-294-7416. ([ams.usda.gov](https:\/\/www.ams.usda.gov\/services\/sci-contacts\/eastern?utm_source=openai))\n\n4. **Animal and Plant Health Inspection Service (APHIS):** For inquiries related to veterinary services, contact the APHIS office at 6302 NW 36th St, Miami, FL 33166, or call +1 305-876-2200. ([doral.guide](https:\/\/doral.guide\/item\/usda-veterinary-services\/?utm_source=openai))\n\nFor the most accurate and up-to-date information, it's advisable to contact the specific USDA office relevant to your needs directly. ",
+                                    "annotations": [
+                                        {
+                                            "title": "Florida | Farm Service Agency",
+                                            "url": "https:\/\/www.fsa.usda.gov\/state-offices\/florida?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "Florida | Natural Resources Conservation Service",
+                                            "url": "https:\/\/www.nrcs.usda.gov\/state-offices\/florida?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "SCI Eastern Offices | Agricultural Marketing Service",
+                                            "url": "https:\/\/www.ams.usda.gov\/services\/sci-contacts\/eastern?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "USDA APHIS | APHIS Veterinary Services Endorsement Offices",
+                                            "url": "https:\/\/doral.guide\/item\/usda-veterinary-services\/?utm_source=openai"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "fan_out_queries": [
+                        "USDA turn times Florida 2023"
+                    ]
+                }
+            ]
+        }
+    ]
+}

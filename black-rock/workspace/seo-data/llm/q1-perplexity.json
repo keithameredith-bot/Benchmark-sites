@@ -1,0 +1,83 @@
+{
+    "version": "0.1.20260610",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.7270 sec.",
+    "cost": 0.005931,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "06110203-1901-0612-0000-24b9c9dd8a7d",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "3.6725 sec.",
+            "cost": 0.005931,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "perplexity",
+                "llm_responses",
+                "live"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_responses",
+                "se": "perplexity",
+                "model_name": "sonar",
+                "web_search": true,
+                "user_prompt": "What are the best mortgage brokers in Ocala Florida?"
+            },
+            "result": [
+                {
+                    "model_name": "sonar",
+                    "input_tokens": 18,
+                    "output_tokens": 313,
+                    "reasoning_tokens": 0,
+                    "web_search": true,
+                    "money_spent": 0.005331,
+                    "datetime": "2026-06-11 02:03:25 +00:00",
+                    "items": [
+                        {
+                            "type": "message",
+                            "sections": [
+                                {
+                                    "type": "text",
+                                    "text": "If you want the **best mortgage brokers in Ocala, Florida**, the strongest names from the results are **Blissful Mortgage LLC** and **Bee Mortgage App \/ Bee Mortgage Lending Office**, with the caveat that âbestâ here is based on the limited results provided rather than a full market ranking.[1][2]\n\n- **Blissful Mortgage LLC**: Markets itself as a premier mortgage broker\/lender serving Ocala and The Villages, with over 20 years of experience and a wide loan mix including FHA, VA, conventional, USDA, jumbo, condo, DSCR, and investment loans.[1]\n- **Bee Mortgage**: Lists a local Ocala mortgage lending office downtown and says it is a licensed Florida mortgage broker working with multiple lenders to help clients find lower monthly payments.[2]\n\nIf you want a broader shortlist, the BBB result shows there are **BBB-accredited mortgage lenders near Ocala**, but the snippet does not name all of them directly.[4] LinkedIn also surfaces mortgage-broker-related professionals in the Ocala area, but it is less useful than local broker or BBB listings for determining quality.[5]\n\nA practical way to choose among Ocala brokers is to compare:\n- **License status**\n- **Recent reviews**\n- **Loan options**\n- **Local experience**\n- **Responsiveness and fee transparency**\n\nIf you want, I can turn this into a more useful **ranked list of Ocala mortgage brokers** by combining local reputation signals, BBB accreditation, and business details.",
+                                    "annotations": [
+                                        {
+                                            "title": "Ocala, The Villages Fl - #1 CHOICE Mortgage Broker\/Lender",
+                                            "url": "https:\/\/blissfulmortgage.com\/ocala-the-villages-florida-home-mortgage\/"
+                                        },
+                                        {
+                                            "title": "Mortgage Lender Ocala",
+                                            "url": "https:\/\/www.beemortgageapp.com\/locations\/ocala\/"
+                                        },
+                                        {
+                                            "title": "Loan Broker near Ocala, FL | Better Business Bureau",
+                                            "url": "https:\/\/www.bbb.org\/us\/fl\/ocala\/category\/loan-broker"
+                                        },
+                                        {
+                                            "title": "BBB Accredited Mortgage Lenders near Ocala, FL | Better Business ...",
+                                            "url": "https:\/\/www.bbb.org\/us\/fl\/ocala\/category\/mortgage-lenders\/accredited"
+                                        },
+                                        {
+                                            "title": "Hire Top Mortgage Brokers in Ocala, FL LinkedIn",
+                                            "url": "https:\/\/www.linkedin.com\/services\/mortgage-brokers\/us\/ocala-fl"
+                                        },
+                                        {
+                                            "title": "Optimal Mortgage | Florida Mortgage Broker | NMLS #2503896",
+                                            "url": "https:\/\/optimalmortgage.co"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "fan_out_queries": null
+                }
+            ]
+        }
+    ]
+}

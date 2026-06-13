@@ -1,0 +1,41 @@
+== our-reviews (ID 101414) ==
+
+POST_TITLE: Our Reviews
+
+AIOSEO_TITLE: (default)
+
+AIOSEO_DESC: Don't just trust us. Read our reviews and see what our clients are saying about the work we do on docks, boathouses, barndominiums, new home builds, and more.
+
+
+
+BG: http://jsc.local/wp-content/uploads/2025/12/jsc-short-2.webp
+
+TEXT: <p>See What Our Clients Are Saying About Us</p>
+
+TEXT: <h1>Our Reviews</h1>
+
+TEXT: <p>We Always Aim For 5 Star Service!</p>
+
+TEXT: <p>Help Our Business By Leaving a Review</p>
+
+BUTTON: Leave Us a Google Review -> https://g.page/r/CU_afPuU9LllEBM/review
+
+IMG: http://jsc.local/wp-content/uploads/2026/03/JSC-Read-Our-Reviews-1024x683.jpg | alt=JSC Read Our Reviews
+
+TEXT: <p>[trustindex no-registration=google]</p>
+
+BUTTON: Leave Us a Google Review -> https://g.page/r/CU_afPuU9LllEBM/review
+
+TEXT: <h2>Make an Appointment Today!</h2>
+
+TEXT: <p>16455 E Hwy 40, Unit 1<br />Silver Springs, FL 34488</p>
+
+TEXT: <p>info@jscfla.com</p>
+
+TEXT: <p>352.687.2030</p>
+
+TEXT: <p>Mon – Fri: 8:00 am – 4:00 pm<br />Sat- Sunday: Closed</p>
+
+BG: https://constructionpro-demo.markhendriksen.com/wp-content/uploads/2024/08/corner-dots-left-top.png
+
+TEXT: <p>You Dream it, We Build it.</p>

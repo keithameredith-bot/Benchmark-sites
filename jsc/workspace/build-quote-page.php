@@ -1,0 +1,194 @@
+<?php
+/**
+ * Build /get-a-free-quote/ — the conversion landing page every "GET A FREE QUOTE" CTA points to.
+ * Form: WPForms ID below is the CURRENT placeholder — when Keith builds the prettier quote form,
+ * change JSC_QUOTE_FORM_ID and rerun. Run: wp eval-file build-quote-page.php
+ */
+
+$JSC_QUOTE_FORM_ID = 101491; // ← swap to Keith's new quote form ID when ready
+
+// create page if needed
+$page = get_page_by_path( 'get-a-free-quote', OBJECT, 'page' );
+if ( ! $page ) {
+	$pid = wp_insert_post( array(
+		'post_type'   => 'page',
+		'post_status' => 'publish',
+		'post_title'  => 'Get a Free Quote',
+		'post_name'   => 'get-a-free-quote',
+	) );
+	echo "created page $pid\n";
+} else {
+	$pid = $page->ID;
+}
+
+$content = '<!-- wp:html -->
+<div class="jsc-hero jsc-hero-warm">
+<div class="jsc-hero-bg" style="background-image:url(\'/wp-content/uploads/2026/06/jsc-home-hero-montage.webp\')"></div>
+<div class="jsc-wrap">
+<span class="jsc-eyebrow">Free · No Obligation</span>
+<h1>Get Your Free Quote</h1>
+<p class="jsc-sub">Tell us what you\'re dreaming up — a dock, a barndominium, a remodel, anything we build. A JSC team member will reach out, talk through your project, and get you a real number. <strong>Our goal is to quote most projects right on site.</strong></p>
+<div class="jsc-cta-row">
+<a class="jsc-btn jsc-btn-gold" href="#quote-form">START MY FREE QUOTE ↓</a>
+<a class="jsc-btn jsc-btn-ghost" href="tel:3526872030">CALL 352.687.2030</a>
+</div>
+<div class="jsc-trust">
+[bwd_stars]
+<span><b>✓</b> 25+ Years Experience</span>
+<span><b>✓</b> FL Certified Residential Contractor <b>CRC1332267</b></span>
+<span><b>✓</b> Lifetime Labor Warranty</span>
+<span><b>✓</b> We Build Statewide</span>
+</div>
+</div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:group {"tagName":"section","className":"jsc-section jsc-warm"} -->
+<section class="wp-block-group jsc-section jsc-warm" id="quote-form"><!-- wp:group {"className":"jsc-wrap"} -->
+<div class="wp-block-group jsc-wrap"><!-- wp:html -->
+<div class="jsc-form-flex">
+<div class="jsc-form-card jsc-form-card-wide">
+<h2>Tell Us About Your Project</h2>
+<p class="jsc-form-note">Where it is, what you want built, and any timeline you\'re working against. The more we know, the tighter the quote.</p>
+<div class="jsc-callback-bar"><span class="jsc-cb-dot"></span><span>You can expect a call back the <strong>same business day</strong> — no later than the next.</span></div>
+<script id="wpforms-jquery-fallback">if(!window.jQuery){document.write(\'<script src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"><\\/script>\');}</script>
+[wpforms id="' . $JSC_QUOTE_FORM_ID . '" title="false"]
+</div>
+<aside class="jsc-form-aside">
+<div class="jsc-aside-card">
+<h3>Why folks pick JSC</h3>
+<ul class="jsc-aside-list">
+<li><b>✓</b> FL Certified Residential Contractor <strong>CRC1332267</strong></li>
+<li><b>✓</b> Lifetime labor warranty on every job</li>
+<li><b>✓</b> 25+ years building Central Florida</li>
+<li><b>✓</b> 5.0★ on Google — every review, five stars</li>
+<li><b>✓</b> We hold to our quotes — no surprise invoices</li>
+</ul>
+</div>
+<div class="jsc-aside-card">
+<h3>Your quote, not a guess</h3>
+<p>We come walk the site with you — soil, setbacks, water access, all of it — and price <em>your</em> project. Most jobs get quoted right there on the spot.</p>
+</div>
+<div class="jsc-aside-card jsc-aside-call">
+<h3>Rather talk it through?</h3>
+<a class="jsc-btn jsc-btn-gold" href="tel:3526872030">CALL 352.687.2030</a>
+<p class="jsc-aside-hours">Mon–Fri, 8am–4pm · Silver Springs, FL</p>
+</div>
+</aside>
+</div>
+<style>
+.jsc-form-flex{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:26px;align-items:start}
+.jsc-form-aside{display:grid;gap:18px;position:sticky;top:90px}
+.jsc-aside-card{background:#fff;border:1px solid var(--jsc-line);border-radius:var(--jsc-radius);padding:22px 24px}
+.jsc-aside-card h3{margin:0 0 10px;font-size:18px}
+.jsc-aside-card p{margin:0;font-size:15px;line-height:1.55}
+.jsc-aside-list{list-style:none;margin:0;padding:0;display:grid;gap:9px;font-size:15px}
+.jsc-aside-list b{color:var(--jsc-gold);margin-right:7px}
+.jsc-aside-call{text-align:center}
+.jsc-aside-call .jsc-btn{display:block;margin:4px 0 10px}
+.jsc-aside-hours{font-size:13.5px;color:#5a6572}
+.jsc-callback-bar{display:flex;align-items:center;gap:11px;background:#f1ece2;border-left:4px solid var(--jsc-gold);border-radius:8px;padding:13px 16px;margin:0 0 20px;font-size:15.5px}
+.jsc-callback-bar strong{color:var(--jsc-blue)}
+.jsc-cb-dot{flex:none;width:10px;height:10px;border-radius:50%;background:#22c55e;animation:jsc-cb-pulse 2s ease-out infinite}
+@keyframes jsc-cb-pulse{0%{box-shadow:0 0 0 0 rgba(34,197,94,.55)}70%{box-shadow:0 0 0 9px rgba(34,197,94,0)}100%{box-shadow:0 0 0 0 rgba(34,197,94,0)}}
+@media (prefers-reduced-motion: reduce){.jsc-cb-dot{animation:none}}
+@media(max-width:880px){.jsc-form-flex{grid-template-columns:1fr}.jsc-form-aside{position:static}}
+</style>
+<!-- /wp:html --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","className":"jsc-section"} -->
+<section class="wp-block-group jsc-section"><!-- wp:group {"className":"jsc-wrap"} -->
+<div class="wp-block-group jsc-wrap"><!-- wp:html -->
+<p class="jsc-kicker">How It Works</p>
+<h2>From "What Would This Cost?" to a Real Number</h2>
+<div class="jsc-steps3">
+<div class="jsc-step"><span class="jsc-stepnum">1</span><h3>Tell us about your project</h3><p>Fill out the form or call. A few details — what you want built, where, and your timeline — are all we need to get started.</p></div>
+<div class="jsc-step"><span class="jsc-stepnum">2</span><h3>We come take a look</h3><p>A JSC team member walks your site with you, talks through your options, and answers your questions — soil, permits, materials, all of it.</p></div>
+<div class="jsc-step"><span class="jsc-stepnum">3</span><h3>You get a real number</h3><p>A clear, transparent quote built from your exact project — not a guess from a website. <strong>We hold to our quotes.</strong></p></div>
+</div>
+<!-- /wp:html --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","className":"jsc-section"} -->
+<section class="wp-block-group jsc-section"><!-- wp:group {"className":"jsc-wrap"} -->
+<div class="wp-block-group jsc-wrap"><!-- wp:html -->
+<p class="jsc-kicker" style="text-align:center">Real Jobs Only</p>
+<h2 style="text-align:center">The Kind of Work You\'re Quoting</h2>
+<p style="text-align:center;max-width:640px;margin:0 auto 28px">Every photo on this site is a real JSC build — no stock photos, no AI renders. <a href="/galleries/">Browse the galleries →</a></p>
+<div class="jsc-proof-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px">
+<a href="/barndominium-gallery/"><img src="/wp-content/uploads/2026/06/best-barndominium-builders-in-florida-hero.webp" alt="Wood-sided barndominium built by JSC Contracting in Florida" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--jsc-radius)"></a>
+<a href="/dock-gallery/"><img src="/wp-content/uploads/2026/06/two-story-dock-with-viewing-deck-768x576.webp" alt="Two-story dock with viewing deck built by JSC" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--jsc-radius)"></a>
+<a href="/boathouse-gallery/"><img src="/wp-content/uploads/2026/06/boathouse-and-boat-lift-768x433.webp" alt="Boathouse with boat lift built by JSC Contracting" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--jsc-radius)"></a>
+<a href="/new-home-gallery/"><img src="/wp-content/uploads/2026/02/new-construction-home-modern-florida.webp" alt="Modern new construction home built by JSC Contracting in Central Florida" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--jsc-radius)"></a>
+</div>
+<style>@media(max-width:600px){.jsc-proof-grid{grid-template-columns:1fr 1fr!important}}</style>
+<div style="text-align:center;margin-top:32px;padding:22px 26px;background:var(--jsc-soft,#f5f7fa);border:1px solid var(--jsc-line);border-radius:var(--jsc-radius);max-width:760px;margin-left:auto;margin-right:auto">
+<p style="margin:0;font-size:17px"><strong>Every job is backed by our lifetime labor warranty.</strong> If something we\'re responsible for needs attention — ever — we make it right. Serving Marion, Lake, Sumter, Citrus, Alachua &amp; Putnam counties, and all of Florida for barndominiums and container homes.</p>
+</div>
+<!-- /wp:html --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","className":"jsc-section jsc-warm"} -->
+<section class="wp-block-group jsc-section jsc-warm"><!-- wp:group {"className":"jsc-wrap"} -->
+<div class="wp-block-group jsc-wrap"><!-- wp:html -->
+<p style="text-align:center">[bwd_stars]</p>
+<p class="jsc-quote-quote">"Great company with awesome employees. So far for us we have a beautiful dock, fencing and grill area. Looking forward to hiring them for the next project."</p>
+<p class="jsc-quote-attrib">— JSC client, Google review · <a href="/our-reviews/">Read all our reviews</a></p>
+<!-- /wp:html --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:group {"tagName":"section","className":"jsc-section"} -->
+<section class="wp-block-group jsc-section"><!-- wp:group {"className":"jsc-wrap"} -->
+<div class="wp-block-group jsc-wrap"><!-- wp:html -->
+<h2 class="jsc-faq-title">Quick Answers</h2>
+<div class="jsc-faq">
+<details>
+<summary>Is the quote really free?</summary>
+<div class="jsc-faq-a">Yes — completely free and no obligation. We come out, look at your project, talk through options, and give you a number. What you do with it is up to you.</div>
+</details>
+<details>
+<summary>How fast will I hear back?</summary>
+<div class="jsc-faq-a">Our office works Monday–Friday, 8am–4pm, and we respond to quote requests in the order they come in — typically within one business day.</div>
+</details>
+<details>
+<summary>What if I\'m not sure exactly what I want yet?</summary>
+<div class="jsc-faq-a">That\'s normal — and honestly, it\'s the fun part. Tell us what you\'re thinking and we\'ll help you dream it up. You dream it, we build it.</div>
+</details>
+<details>
+<summary>What warranty comes with the work?</summary>
+<div class="jsc-faq-a">A <strong>lifetime labor warranty</strong> on everything that\'s JSC\'s responsibility — if something we built needs attention, we make it right. Equipment like boat lifts carries its manufacturer warranty on top.</div>
+</details>
+</div>
+<!-- /wp:html --></div>
+<!-- /wp:group --></section>
+<!-- /wp:group -->
+
+<!-- wp:html -->
+<div class="jsc-cta-band">
+<h2>Rather Just Call?</h2>
+<p>We\'re real people in Silver Springs, Florida. Call <a class="jsc-tel" href="tel:3526872030">352.687.2030</a> and talk to the team directly.</p>
+<a class="jsc-btn jsc-btn-gold" href="tel:3526872030">CALL 352.687.2030</a>
+</div>
+<!-- /wp:html -->';
+
+$r = wp_update_post( wp_slash( array( 'ID' => $pid, 'post_content' => $content ) ), true );
+echo is_wp_error( $r ) ? 'ERR: ' . $r->get_error_message() . "\n" : "quote landing page built ($pid)\n";
+update_post_meta( $pid, '_kad_post_title', 'hide' );
+update_post_meta( $pid, '_kad_post_layout', 'fullwidth' );
+update_post_meta( $pid, '_kad_post_content_style', 'unboxed' );
+update_post_meta( $pid, '_kad_post_vertical_padding', 'hide' );
+
+global $wpdb;
+$exists = $wpdb->get_var( $wpdb->prepare( "SELECT post_id FROM {$wpdb->prefix}aioseo_posts WHERE post_id=%d", $pid ) );
+$desc = 'Get a free, no-obligation quote from JSC Contracting — docks, barndominiums, seawalls, pole barns, remodels and more. We aim to quote most projects on site.';
+if ( $exists ) {
+	$wpdb->update( $wpdb->prefix . 'aioseo_posts', array( 'description' => $desc ), array( 'post_id' => $pid ) );
+} else {
+	$wpdb->insert( $wpdb->prefix . 'aioseo_posts', array( 'post_id' => $pid, 'description' => $desc, 'created' => current_time( 'mysql' ), 'updated' => current_time( 'mysql' ) ) );
+}
+echo "meta description set\n";

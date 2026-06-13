@@ -1,0 +1,121 @@
+{
+    "version": "0.1.20260610",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "0.2151 sec.",
+    "cost": 0.02003,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "06110159-1901-0265-0000-20fe75586485",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "0.1602 sec.",
+            "cost": 0.02003,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "backlinks",
+                "summary",
+                "live"
+            ],
+            "data": {
+                "api": "backlinks",
+                "function": "summary",
+                "target": "blackrockmortgage.com",
+                "include_subdomains": true,
+                "internal_list_limit": 10,
+                "backlinks_status_type": "live"
+            },
+            "result": [
+                {
+                    "target": "blackrockmortgage.com",
+                    "first_seen": "2019-05-25 17:06:42 +00:00",
+                    "lost_date": null,
+                    "rank": 153,
+                    "backlinks": 445,
+                    "backlinks_spam_score": 13,
+                    "crawled_pages": 93,
+                    "info": {
+                        "server": "Pressidium",
+                        "cms": null,
+                        "platform_type": [
+                            "organization"
+                        ],
+                        "ip_address": "213.165.233.50",
+                        "country": "WW",
+                        "is_ip": false,
+                        "target_spam_score": 0
+                    },
+                    "internal_links_count": 3708,
+                    "external_links_count": 564,
+                    "broken_backlinks": 0,
+                    "broken_pages": 3,
+                    "referring_domains": 117,
+                    "referring_domains_nofollow": 55,
+                    "referring_main_domains": 112,
+                    "referring_main_domains_nofollow": 55,
+                    "referring_ips": 89,
+                    "referring_subnets": 83,
+                    "referring_pages": 372,
+                    "referring_pages_nofollow": 236,
+                    "referring_links_tld": {
+                        "org": 186,
+                        "com": 113,
+                        "info": 11,
+                        "pages.dev": 7,
+                        "pro": 5,
+                        "agency": 4,
+                        "net": 3,
+                        "eu": 3,
+                        "us": 3,
+                        "co.uk": 3
+                    },
+                    "referring_links_types": {
+                        "anchor": 326,
+                        "image": 28,
+                        "redirect": 18
+                    },
+                    "referring_links_attributes": {
+                        "nofollow": 236,
+                        "noopener": 42,
+                        "noreferrer": 25,
+                        "external": 16
+                    },
+                    "referring_links_platform_types": {
+                        "unknown": 220,
+                        "cms": 88,
+                        "blogs": 87,
+                        "organization": 64,
+                        "ecommerce": 5,
+                        "message-boards": 1
+                    },
+                    "referring_links_semantic_locations": {
+                        "": 276,
+                        "article": 38,
+                        "main": 31,
+                        "nav": 8,
+                        "footer": 7,
+                        "section": 7,
+                        "aside": 3,
+                        "header": 1,
+                        "figure": 1
+                    },
+                    "referring_links_countries": {
+                        "": 153,
+                        "WW": 144,
+                        "US": 46,
+                        "IN": 5,
+                        "DE": 3,
+                        "GB": 3,
+                        "AU": 2,
+                        "CV": 2,
+                        "GA": 2,
+                        "JP": 2
+                    }
+                }
+            ]
+        }
+    ]
+}

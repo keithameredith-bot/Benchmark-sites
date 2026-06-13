@@ -1,0 +1,83 @@
+{
+    "version": "0.1.20260610",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "4.3731 sec.",
+    "cost": 0.006058,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "06110204-1901-0612-0000-5fe43f93694e",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "4.3200 sec.",
+            "cost": 0.006058,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "perplexity",
+                "llm_responses",
+                "live"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_responses",
+                "se": "perplexity",
+                "model_name": "sonar",
+                "web_search": true,
+                "user_prompt": "Best FHA lender in Florida for a first time home buyer with a 600 credit score?"
+            },
+            "result": [
+                {
+                    "model_name": "sonar",
+                    "input_tokens": 25,
+                    "output_tokens": 433,
+                    "reasoning_tokens": 0,
+                    "web_search": true,
+                    "money_spent": 0.005458,
+                    "datetime": "2026-06-11 02:04:20 +00:00",
+                    "items": [
+                        {
+                            "type": "message",
+                            "sections": [
+                                {
+                                    "type": "text",
+                                    "text": "For a **first-time home buyer in Florida with a 600 credit score**, the most practical FHA lenders in your results are **Society Mortgage** and **1st Florida Mortgage**, because both advertise Florida FHA programs and explicitly support lower-credit borrowers; Society Mortgage specifically says **600 can qualify for 3.5% down**.[4][3]\n\nIf you want the **âbestâ** option, it depends on what matters most:\n\n| Lender | Why it stands out | Good fit if you wantâ¦ |\n|---|---|---|\n| **Society Mortgage** | Says **600 credit scores can qualify** for FHA with **3.5% down** in Florida[4] | A lender that clearly matches your credit profile |\n| **1st Florida Mortgage** | Says it is an **approved FHA lender in Florida** with **flexible credit guidelines** and **in-house underwriting**[3] | Faster processing and more hands-on underwriting |\n| **Select Home Loans** | Ranked #1 in a Florida first-time buyer list and offers **FHA** plus local expertise[1] | A Florida-focused lender with first-time-buyer support |\n| **Truss Financial Group** | Says FHA is ideal for first-time buyers and notes **580+** with **3.5% down**[5] | A lender emphasizing low-down-payment FHA access |\n\nA **600 score is generally within FHA territory** because FHA loans commonly allow approval at **580+ for 3.5% down**, and one Florida lender in your results says **600 can qualify** under that framework.[5][4] That means your bigger differences will usually be **interest rate, lender fees, seller credit guidance, and speed**, not just basic eligibility.[5][3]\n\nIf you want the shortest answer: **Society Mortgage** looks like the best direct match for a Florida FHA borrower with a **600 credit score**.[4]\n\nIf you want, I can also help you compare these lenders on **estimated monthly payment, upfront mortgage insurance, and likely closing costs** for a Florida FHA loan.",
+                                    "annotations": [
+                                        {
+                                            "title": "The Best Florida Mortgage Lenders for First-Time Home Buyers in ...",
+                                            "url": "https:\/\/www.selecthomeloans.com\/the-best-florida-mortgage-lenders-for-first-time-home-buyers-in-2026\/"
+                                        },
+                                        {
+                                            "title": "Full List of Florida FHA Loan Requirements",
+                                            "url": "https:\/\/www.sccu.com\/articles\/home-mortgage\/the-full-list-of-florida-fha-loan-requirements"
+                                        },
+                                        {
+                                            "title": "Why 1st Florida Mortgage",
+                                            "url": "https:\/\/1stfloridamortgage.com\/fha-loan-requirements-florida\/"
+                                        },
+                                        {
+                                            "title": "FHA Loan in Florida - Society Mortgage",
+                                            "url": "https:\/\/societymortgage.com\/fha-home-loans\/florida\/"
+                                        },
+                                        {
+                                            "title": "FHA Loans in Florida | Low Down Payment Home Financing",
+                                            "url": "https:\/\/trussfinancialgroup.com\/florida-mortgage-lender\/fha-loans"
+                                        },
+                                        {
+                                            "title": "FHA Loans in Florida | First Time Home Buyer Loans",
+                                            "url": "https:\/\/lbcmortgage.com\/florida-mortgage-broker\/fha-loans-in-florida\/"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "fan_out_queries": null
+                }
+            ]
+        }
+    ]
+}

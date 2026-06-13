@@ -1,0 +1,37 @@
+== pole-barn-gallery (ID 101257) ==
+
+POST_TITLE: Pole Barn Gallery
+
+AIOSEO_TITLE: (default)
+
+AIOSEO_DESC: Check out our past pole barn construction jobs here at JSC construction.
+
+
+
+BG: http://jsc.local/wp-content/uploads/2025/12/jsc-short-2.webp
+
+TEXT: <p>Our work speaks for itself</p>
+
+TEXT: <h1>Pole Barn Gallery</h1>
+
+TEXT: <p>Get a Free Quote Today!</p>
+
+TEXT: <p>Make an Appointment Today</p>
+
+BUTTON: Get started today -> http://jsc.local/contact/
+
+TEXT: <p>Check out our past pole barn construction jobs.</p>
+
+IMG: http://jsc.local/wp-content/uploads/2026/02/small-poll-barn-500.webp | alt=pole barn for livestock
+
+IMG: http://jsc.local/wp-content/uploads/2026/01/pole-barn-black-roof-500.webp | alt=Pole Barn Black Roof
+
+IMG: http://jsc.local/wp-content/uploads/2026/01/pole-barn-8x8-posts.webp | alt=Pole Barn with 8x8 Posts
+
+IMG: http://jsc.local/wp-content/uploads/2026/06/dji_fly_20250619_150524_132_1771966590791_photo-scaled.jpg | alt=
+
+IMG: http://jsc.local/wp-content/uploads/2026/06/dji_fly_20250619_150616_136_1771966592313_photo-scaled.jpg | alt=Metal-clad building with a gray corrugated roof, wooden porch posts, and dirt yard with trees in the background.
+
+IMG: http://jsc.local/wp-content/uploads/2026/06/dji_fly_20250619_145552_120_1771966591728_photo-scaled.jpg | alt=Small metal-roofed building on a dirt lot, with a wooden porch posts and a surrounding wooden fence, backed by trees and woods.
+
+IMG: http://jsc.local/wp-content/uploads/2026/06/IMG_2091-scaled.jpg | alt=Open field with a partially built wooden barn under construction, construction materials and equipment nearby, under a clear blue sky

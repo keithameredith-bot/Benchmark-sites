@@ -1,0 +1,107 @@
+== HOME (93271) ==
+
+POST_TITLE: Home
+
+AIOSEO_TITLE: JSC Contracting Inc, Marine and Residential Construction
+
+AIOSEO_DESC: JSC Contracting is Central Florida's premier builder. We build boat docks, boathouses, pole barns, barndominiums,, new fencing, new construction homes and more.
+
+BG: http://jsc.local/wp-content/uploads/2025/12/jsc-fla2.webp
+
+TEXT: <p>Welcome</p>
+
+TEXT: <h1>JSC Contracting Inc.</h1>
+
+TEXT: <p>You Dream it, We Build it.</p>
+
+BUTTON: About us -> http://jsc.local/about-us/
+
+TEXT: <p>Get a Free Quote!</p>
+
+TEXT: <p>Make an Appointment Today</p>
+
+BUTTON: Get started today -> http://jsc.local/contact/
+
+BG: http://jsc.local/wp-content/uploads/2025/12/jsc-doing-work.webp
+
+TEXT: <h3>Our Core Values</h3>
+
+BUTTON: Read more -> http://jsc.local/core-values/
+
+TEXT: <h3>Transparent Pricing</h3>
+
+BUTTON: Read more -> http://jsc.local/about-us/
+
+BG: http://jsc.local/wp-content/uploads/2025/12/gator-joes-new-build.webp
+
+TEXT: <p>About us</p>
+
+TEXT: <h2>The Builder You Can Rely On</h2>
+
+TEXT: <p style="text-align: left;"><img src="http://jsc.local/wp-content/uploads/2026/02/alex-headshot-looking-left-150x150.webp" width="150" height="150" alt="Alex Scanlan Owner of JSC" class="wp-image-100799 size-thumbnail" style="float: right;" /> JSC Contracting Inc is central Florida's leading marine construction builder. We got our start with docks, boat houses, sea walls and all things marine related. <strong>Turns out if <em>you're really good at that, barns, </em>barndominiums, new home builds and remodels come easy.</strong> So we do that too, and more.</p> <p>Our work speaks for itself. From the Gulf of America to the Atlantic, and all the rivers, lakes and springs in between, we've got you covered.  The pics you see on our site are from real JSC jobs. <strong>We pride ourselves on timeliness, cleanliness, precision and customer satisfaction.</strong></p> <p>Our mission statement is simple. <strong>You dream it, we build it.</strong> The truth is we can help you dream as well. This is what we do. We are glad to help brainstorm your dream with you and create an outcome that will be the envy of the of the neighborhood!</p> <p><strong>Alex Scanlan- Owner</strong></p>
+
+IMG: http://jsc.local/wp-content/uploads/2026/02/alex-sig-small-2-final.png
+
+BG: https://constructionpro-demo.markhendriksen.com/wp-content/uploads/2024/08/corner-dots-left-top.png
+
+TEXT: <p>You Dream it, We Build it.</p>
+
+TEXT: <p>[trustindex no-registration=google]</p>
+
+TEXT: <p>How can we help you</p>
+
+TEXT: <h2>Our Services</h2>
+
+TEXT: <p>JSC Contracting covers a wide range of marine, residential, commercial and agricultural construction services. Our services include but are not limited to docks, boat houses, new home construction, remodels, pole barns, barndominiums, seawalls, new fencing and more.</p>
+
+BUTTON: See all services -> http://jsc.local/services/
+
+BG: http://jsc.local/wp-content/uploads/2025/12/docks-3.webp
+
+BG: http://jsc.local/wp-content/uploads/2025/12/boat-house-500.webp
+
+BG: http://jsc.local/wp-content/uploads/2025/12/seawalls.webp
+
+BG: http://jsc.local/wp-content/uploads/2026/03/boat-in-a-boat-lift.jpg
+
+BG: http://jsc.local/wp-content/uploads/2025/12/remodels.webp
+
+BG: http://jsc.local/wp-content/uploads/2025/12/pole-barns.webp
+
+BG: http://jsc.local/wp-content/uploads/2025/12/barndominium-3.webp
+
+BG: http://jsc.local/wp-content/uploads/2025/12/New-Fencing.webp
+
+BG: http://jsc.local/wp-content/uploads/2026/03/custome-home-new-construction.jpg
+
+BG: http://jsc.local/wp-content/uploads/2025/12/boat-house-2.jpg
+
+TEXT: <h2>What Our Customers Say about Us</h2>
+
+TEXT: <h3>Great company with awesome employees,</h3>
+
+TEXT: <p><span>So far for us we have a beautiful dock, fencing and grill area. Looking forward to hiring them for the next project.</span></p>
+
+BUTTON: Read all Reviews -> http://jsc.local/our-reviews/
+
+TEXT: <p>Features</p>
+
+TEXT: <h2>Why Choose Us</h2>
+
+TEXT: <p>Our goal is always 100% customer satisfaction. We want to exceed your expectations, not just meet them.</p>
+
+TEXT: <p>We knows clients don't like surprises when it comes to the cost of a job. Our quotes are clear, transparent, and we hold to them.</p>
+
+TEXT: <p>Our company culture breeds an environment of excellence. You can expect dedication to your job from start to finish.</p>
+
+TEXT: <p>When we give an estimate for the completion of your project, we do everything we can to stick to that goal.</p>
+
+TEXT: <p>Our project managers and skilled laborers are relentlessly dedicated to getting the job done right no matter the project.</p>
+
+TEXT: <p>We aim to always make sure our job site is secure, clean, and safe. </p>
+
+TEXT: <p>Latest news</p>
+
+TEXT: <h2>Blog</h2>
+
+TEXT: <p>Check out our blog for the latest, trends, updates, and completed JSC projects.</p>

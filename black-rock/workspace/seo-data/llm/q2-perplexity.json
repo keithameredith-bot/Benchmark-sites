@@ -1,0 +1,99 @@
+{
+    "version": "0.1.20260610",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.1582 sec.",
+    "cost": 0.006012,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "06110203-1901-0612-0000-d4f7dfdc5cea",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "3.1306 sec.",
+            "cost": 0.006012,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "perplexity",
+                "llm_responses",
+                "live"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_responses",
+                "se": "perplexity",
+                "model_name": "sonar",
+                "web_search": true,
+                "user_prompt": "Who should I use for a USDA loan in Florida?"
+            },
+            "result": [
+                {
+                    "model_name": "sonar",
+                    "input_tokens": 18,
+                    "output_tokens": 394,
+                    "reasoning_tokens": 0,
+                    "web_search": true,
+                    "money_spent": 0.005412,
+                    "datetime": "2026-06-11 02:03:34 +00:00",
+                    "items": [
+                        {
+                            "type": "message",
+                            "sections": [
+                                {
+                                    "type": "text",
+                                    "text": "For a **USDA loan in Florida**, you should usually work with an **approved mortgage lender** that offers USDA loans, not with the USDA itself. Florida lenders in your results include **1st Florida Lending**, **Capital Home Mortgage**, **Beacon Mortgage**, **Home Financial Group**, and **Seacoast Bank**; the USDA program is then reviewed\/guaranteed through USDA Rural Development.[1][2][5][6][7]\n\nIf you want the best fit, choose based on your situation:\n\n- **Best for a straightforward Florida USDA mortgage**: **1st Florida Lending** or **Capital Home Mortgage**, since both advertise Florida USDA lending and direct lender support.[2][3][4]\n- **Best if you want a pre-qualification check first**: **Beacon Mortgage**, which offers free pre-qualification with no credit impact.[6]\n- **Best if you want a bank option**: **Seacoast Bank**, which offers USDA home loans in Florida.[7]\n- **Best if you want to compare multiple USDA lenders in Florida**: use the USDA-approved lender directory for Florida, which lists lenders by city and county.[8]\n\nIf you are asking *who the USDA itself uses in Florida*, the USDA Rural Development office handles direct programs and county\/area-office servicing, with Florida area offices listed for direct home loans and site loans.[9][10]\n\nA practical approach is:\n\n- Check that your home is in a **USDA-eligible rural area**.[1][5]\n- Compare at least **3 USDA-approved lenders** on rate, fees, credit requirements, and closing timeline.[1][5][8]\n- Ask whether they offer **direct USDA underwriting** or simply originate and submit the loan.[1][2][5]\n\nIf you want, I can also narrow this down to the **best USDA lender in Florida for your credit score, county, and price range**.",
+                                    "annotations": [
+                                        {
+                                            "title": "Florida USDA Loan - New American Funding",
+                                            "url": "https:\/\/www.newamericanfunding.com\/loan-types\/usda-loan\/state\/florida\/"
+                                        },
+                                        {
+                                            "title": "Florida USDA Home Loans - Capital Home Mortgage",
+                                            "url": "https:\/\/capitalhomemortgage.com\/florida\/usda-home-loans\/"
+                                        },
+                                        {
+                                            "title": "USDA Home Loan 100% Financing | 1st Florida Lending",
+                                            "url": "https:\/\/www.1floridalending.com\/usda"
+                                        },
+                                        {
+                                            "title": "1st Florida Lending I USDA Home Loans",
+                                            "url": "https:\/\/www.1floridalending.com\/mobile\/usda-home-loans.htm"
+                                        },
+                                        {
+                                            "title": "USDA Home Loans in Florida | Home Financial Group",
+                                            "url": "https:\/\/www.homefinancialgroup.net\/usda-mortgage"
+                                        },
+                                        {
+                                            "title": "USDA Loans in Florida | Beacon Mortgage â Apply Online",
+                                            "url": "https:\/\/www.mybeaconmortgage.com\/loan-options\/usda"
+                                        },
+                                        {
+                                            "title": "USDA Home Loan | Personal Mortgage | Florida - Seacoast Bank",
+                                            "url": "https:\/\/www.seacoastbank.com\/personal\/lending\/mortgages\/usda-home-loan"
+                                        },
+                                        {
+                                            "title": "Florida USDA Mortgage Lenders - USDALenders.org",
+                                            "url": "https:\/\/usdalenders.org\/florida-fl\/"
+                                        },
+                                        {
+                                            "title": "Rural Housing Site Loans in Florida",
+                                            "url": "https:\/\/www.rd.usda.gov\/programs-services\/single-family-housing-programs\/rural-housing-site-loans\/fl"
+                                        },
+                                        {
+                                            "title": "Single Family Housing Direct Home Loans in Florida",
+                                            "url": "https:\/\/www.rd.usda.gov\/programs-services\/single-family-housing-programs\/single-family-housing-direct-home-loans-9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "fan_out_queries": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "version": "0.1.20260610",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "5.7493 sec.",
+    "cost": 0.0272365,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "06110204-1901-0612-0000-dd41a5a081e0",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "5.7391 sec.",
+            "cost": 0.0272365,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "chat_gpt",
+                "llm_responses",
+                "live"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_responses",
+                "se": "chat_gpt",
+                "model_name": "gpt-4o-mini",
+                "web_search": true,
+                "user_prompt": "Best FHA lender in Florida for a first time home buyer with a 600 credit score?"
+            },
+            "result": [
+                {
+                    "model_name": "gpt-4o-mini-2024-07-18",
+                    "input_tokens": 8174,
+                    "output_tokens": 684,
+                    "reasoning_tokens": 0,
+                    "web_search": true,
+                    "money_spent": 0.0266365,
+                    "datetime": "2026-06-11 02:04:16 +00:00",
+                    "items": [
+                        {
+                            "type": "message",
+                            "sections": [
+                                {
+                                    "type": "text",
+                                    "text": "Obtaining an FHA loan in Florida with a 600 credit score is feasible, as FHA guidelines permit a minimum credit score of 580 for a 3.5% down payment. ([mortgage-info.com](https:\/\/mortgage-info.com\/blog\/fha-loan-600-credit-score-2025?utm_source=openai)) However, individual lenders may have their own criteria, and some might require higher scores or additional documentation.\n\nHere are several Florida-based lenders known for working with borrowers with credit scores around 600:\n\n**[The Federal Savings Bank](https:\/\/www.google.com\/maps\/search\/The+Federal+Savings+Bank%2C+Florida%2C+USA?utm_source=openai)**\n_Florida, USA_\nOffers FHA loans with a minimum credit score requirement of 600, catering to first-time homebuyers with low down payment options.\n\n**[Jhenesis Mortgage](https:\/\/www.google.com\/maps\/search\/Jhenesis+Mortgage%2C+Florida%2C+USA?utm_source=openai)**\n_Florida, USA_\nSpecializes in FHA loans for Florida residents, accepting credit scores as low as 580 with a 3.5% down payment.\n\n**[Ebenezer Mortgage Solutions](https:\/\/www.google.com\/maps\/search\/Ebenezer+Mortgage+Solutions%2C+Tampa%2C+FL?utm_source=openai)**\n_Tampa, FL_\nProvides FHA loans with flexible credit requirements, including options for credit scores starting at 500 with a 10% down payment.\n\n**[Knights Mortgage](https:\/\/www.google.com\/maps\/search\/Knights+Mortgage%2C+Florida%2C+USA?utm_source=openai)**\n_Florida, USA_\nOffers FHA home loans with competitive rates and flexible credit requirements, assisting first-time buyers in Florida.\n\n**[Home Financial Group](https:\/\/www.google.com\/maps\/search\/Home+Financial+Group%2C+Florida%2C+USA?utm_source=openai)**\n_Florida, USA_\nProvides FHA home loans with low down payment options and flexible credit requirements, ideal for first-time homebuyers.\n\n**[MyFloridaMortgages](https:\/\/www.google.com\/maps\/search\/MyFloridaMortgages%2C+Florida%2C+USA?utm_source=openai)**\n_Florida, USA_\nA mortgage broker offering FHA loans with various programs, including options for borrowers with lower credit scores.\n\n**Tips to Enhance Your Approval Chances:**\n\n- **Debt-to-Income Ratio (DTI):** Aim to keep your DTI below 43%, as higher ratios may require compensating factors. ([mortgage-info.com](https:\/\/mortgage-info.com\/blog\/fha-loan-600-credit-score-2025?utm_source=openai))\n\n- **Down Payment:** While 3.5% is the minimum, a larger down payment can strengthen your application.\n\n- **Employment History:** Maintain a stable employment history, ideally in the same field for at least two years.\n\n- **Compensating Factors:** Demonstrating savings reserves or a history of on-time rent payments can offset a lower credit score.\n\nIt's advisable to consult with multiple lenders to compare terms and find the best fit for your financial situation. ",
+                                    "annotations": [
+                                        {
+                                            "title": "FHA Loan 600 Credit Score 2025 | 3.5% Down Guide",
+                                            "url": "https:\/\/mortgage-info.com\/blog\/fha-loan-600-credit-score-2025?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "The Federal Savings Bank",
+                                            "url": "https:\/\/www.google.com\/maps\/search\/The+Federal+Savings+Bank%2C+Florida%2C+USA?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "Jhenesis Mortgage",
+                                            "url": "https:\/\/www.google.com\/maps\/search\/Jhenesis+Mortgage%2C+Florida%2C+USA?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "Ebenezer Mortgage Solutions",
+                                            "url": "https:\/\/www.google.com\/maps\/search\/Ebenezer+Mortgage+Solutions%2C+Tampa%2C+FL?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "Knights Mortgage",
+                                            "url": "https:\/\/www.google.com\/maps\/search\/Knights+Mortgage%2C+Florida%2C+USA?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "Home Financial Group",
+                                            "url": "https:\/\/www.google.com\/maps\/search\/Home+Financial+Group%2C+Florida%2C+USA?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "MyFloridaMortgages",
+                                            "url": "https:\/\/www.google.com\/maps\/search\/MyFloridaMortgages%2C+Florida%2C+USA?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "FHA Loan 600 Credit Score 2025 | 3.5% Down Guide",
+                                            "url": "https:\/\/mortgage-info.com\/blog\/fha-loan-600-credit-score-2025?utm_source=openai"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "fan_out_queries": [
+                        "best FHA lender Florida first time home buyer 600 credit score 2023"
+                    ]
+                }
+            ]
+        }
+    ]
+}

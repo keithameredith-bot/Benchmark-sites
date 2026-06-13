@@ -1,0 +1,77 @@
+{
+    "version": "0.1.20260610",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "7.2821 sec.",
+    "cost": 0.0271099,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "06110203-1901-0612-0000-40329729ab02",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "7.2533 sec.",
+            "cost": 0.0271099,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "chat_gpt",
+                "llm_responses",
+                "live"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_responses",
+                "se": "chat_gpt",
+                "model_name": "gpt-4o-mini",
+                "web_search": true,
+                "user_prompt": "What are the best mortgage brokers in Ocala Florida?"
+            },
+            "result": [
+                {
+                    "model_name": "gpt-4o-mini-2024-07-18",
+                    "input_tokens": 8174,
+                    "output_tokens": 473,
+                    "reasoning_tokens": 0,
+                    "web_search": true,
+                    "money_spent": 0.0265099,
+                    "datetime": "2026-06-11 02:03:21 +00:00",
+                    "items": [
+                        {
+                            "type": "message",
+                            "sections": [
+                                {
+                                    "type": "text",
+                                    "text": "If you're seeking reputable mortgage brokers in Ocala, Florida, here are several options to consider:\n\n**[Landmark Mortgage Planners](https:\/\/ocalamortgageloans.com\/?utm_source=openai)**  \n**Closed Â· Mortgage lender Â· 4.9 (188 reviews)**  \n_415 SE 17th Pl, Ocala, FL 34471_  \nWith over 16 years of experience, they offer a wide range of mortgage programs including FHA, VA, Conventional, USDA, and renovation loans. They are known for exceptional customer service and on-time closings.\n\n**[Motto Mortgage Platinum Plus](https:\/\/www.mottomortgage.com\/offices\/platinum-plus-ocala\/?utm_source=openai)**  \n**Closed Â· Mortgage broker Â· 5.0 (1 reviews)**  \n_2709 SW 27th Ave STE 103, Ocala, FL 34471_  \nAn independently owned brokerage working directly with a network of loan wholesalers to deliver a seamless and transparent experience. They offer various loan options including 15 and 30-year fixed mortgages, FHA, and USDA loans.\n\n**[Fidelity Home Group](https:\/\/www.thevillagesflmortgage.com?utm_source=openai)**  \n**Closed Â· Mortgage Lenders**  \n_4076 E FL-44, Wildwood, FL 34785_  \nProvides a concierge approach to mortgage services, offering quick closings and low mortgage rates. They offer a variety of loan programs and have a strong presence in the Ocala community.\n\n**[Black Rock Mortgage](http:\/\/blackrockmortgage.com?utm_source=openai)**  \n**Closed Â· Mortgage Brokers**  \n_1552 E Fort King St, Ocala, FL 34471_  \nA division of Coast 2 Coast Mortgage, licensed in 40 states, offering a wide range of loan programs including USDA, FHA, VA, and conventional financing. They emphasize advanced technology and AI to streamline the mortgage process.\n\nWhen selecting a mortgage broker, consider factors such as the range of loan programs offered, customer service quality, and the broker's familiarity with the local market. It's advisable to contact multiple brokers to compare rates, terms, and services to find the best fit for your financial needs. ",
+                                    "annotations": [
+                                        {
+                                            "title": "Landmark Mortgage Planners",
+                                            "url": "https:\/\/ocalamortgageloans.com\/?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "Motto Mortgage Platinum Plus",
+                                            "url": "https:\/\/www.mottomortgage.com\/offices\/platinum-plus-ocala\/?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "Fidelity Home Group",
+                                            "url": "https:\/\/www.thevillagesflmortgage.com?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "Black Rock Mortgage",
+                                            "url": "http:\/\/blackrockmortgage.com?utm_source=openai"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "fan_out_queries": [
+                        "best mortgage brokers in Ocala Florida"
+                    ]
+                }
+            ]
+        }
+    ]
+}

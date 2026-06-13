@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barndominium Builders in Florida — JSC Kadence Mockup</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600;700;800&family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --jsc-blue:#2166D3;
+    --jsc-blue-dark:#174FA8;
+    --jsc-gold:#F2A93B;
+    --ink:#16191D;
+    --ink-soft:#3C434B;
+    --paper:#FFFFFF;
+    --paper-warm:#F6F8FB;
+    --line:#E3E8EF;
+    --radius:10px;
+    --maxw:1160px;
+    --head:"Fira Sans",sans-serif;
+    --body:"Nunito Sans",sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--body);color:var(--ink-soft);font-size:17px;line-height:1.7;background:var(--paper)}
+  h1,h2,h3{font-family:var(--head);color:var(--ink);line-height:1.2;text-wrap:balance}
+  h2{font-size:clamp(26px,3.2vw,36px);font-weight:700;margin-bottom:18px}
+  h3{font-size:clamp(20px,2.4vw,25px);font-weight:700;margin-bottom:14px}
+  p{margin-bottom:18px}
+  p:last-child{margin-bottom:0}
+  strong{color:var(--ink);font-weight:800}
+  img{max-width:100%;display:block}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+
+  /* ============ TOP BAR + HEADER ============ */
+  .topbar{display:none}
+  .call-btn{display:inline-flex;align-items:center;gap:8px;white-space:nowrap}
+  .hdr{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}
+  .hdr .wrap{display:flex;justify-content:space-between;align-items:center;padding-top:14px;padding-bottom:14px;gap:24px}
+  .logo{font-family:var(--head);font-weight:800;font-size:26px;letter-spacing:-1px;color:var(--ink);text-decoration:none;font-style:italic}
+  .logo span{font-size:11px;letter-spacing:2px;font-weight:600;font-style:normal;display:block;color:var(--ink-soft)}
+  nav.main{display:flex;gap:26px}
+  nav.main a{color:var(--ink);text-decoration:none;font-weight:700;font-size:14px;letter-spacing:.5px}
+  nav.main a:hover{color:var(--jsc-blue)}
+  .btn{display:inline-block;background:var(--jsc-blue);color:#fff;text-decoration:none;font-weight:800;font-size:15px;letter-spacing:.4px;padding:14px 28px;border-radius:6px;transition:background .18s ease, transform .18s ease}
+  .btn:hover{background:var(--jsc-blue-dark);transform:translateY(-1px)}
+  .btn:focus-visible{outline:3px solid var(--jsc-gold);outline-offset:2px}
+  .btn.ghost{background:transparent;border:2px solid #fff;color:#fff}
+  .btn.ghost:hover{background:rgba(255,255,255,.12)}
+  .btn.gold{background:var(--jsc-gold);color:var(--ink)}
+  .btn.gold:hover{background:#E09A28}
+
+  /* ============ HERO ============ */
+  .hero{position:relative;color:#fff;overflow:hidden;background:var(--ink)}
+  .hero .bg{position:absolute;inset:0;background-image:url('https://jscfla.com/wp-content/uploads/2026/02/barndo-outside-2.webp');background-size:cover;background-position:center 60%}
+  /* NOTE: replace .bg image with the final text-free montage hero. The ::after
+     gradient below is what makes white text legible on ANY montage —
+     and in Kadence we'll use the ::after pseudo-element approach from the
+     start to dodge the iOS Safari overlay paint bug. */
+  .hero .bg::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(10,14,20,.82) 0%,rgba(10,14,20,.55) 45%,rgba(10,14,20,.25) 100%)}
+  .hero .wrap{position:relative;z-index:2;padding-top:96px;padding-bottom:96px;max-width:var(--maxw)}
+  .eyebrow{display:inline-block;font-size:13px;font-weight:800;letter-spacing:3px;color:var(--jsc-gold);text-transform:uppercase;margin-bottom:14px}
+  .hero h1{color:#fff;font-size:clamp(34px,5vw,56px);font-weight:800;max-width:14ch;margin-bottom:18px}
+  .hero .sub{font-size:clamp(17px,2vw,20px);color:#E7ECF2;max-width:52ch;margin-bottom:32px}
+  .hero .cta-row{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+  .hero .trust{margin-top:30px;display:flex;gap:28px;flex-wrap:wrap;font-size:14px;font-weight:700;color:#CBD5E0}
+  .hero .trust span{display:flex;align-items:center;gap:8px}
+  .hero .trust b{color:var(--jsc-gold)}
+  .gstars .stars{color:var(--jsc-gold);letter-spacing:2px;font-size:15px}
+  .gstars{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);padding:6px 14px;border-radius:99px}
+
+  /* ============ SECTIONS ============ */
+  section{padding:72px 0}
+  section.warm{background:var(--paper-warm)}
+  .kicker{display:block;font-size:13px;font-weight:800;letter-spacing:3px;color:var(--jsc-blue);text-transform:uppercase;margin-bottom:10px}
+  .two-col{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:start}
+  .two-col.flip{grid-template-columns:.9fr 1.1fr}
+
+  /* photo grid */
+  .photo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:36px 0 8px}
+  .photo-grid figure{position:relative;border-radius:var(--radius);overflow:hidden;aspect-ratio:4/3;background:var(--line)}
+  .photo-grid img{width:100%;height:100%;object-fit:cover;transition:transform .35s ease}
+  .photo-grid figure:hover img{transform:scale(1.04)}
+  .photo-grid figcaption{position:absolute;left:0;right:0;bottom:0;padding:24px 14px 10px;font-size:13px;font-weight:700;color:#fff;background:linear-gradient(transparent,rgba(0,0,0,.72))}
+  .real-jobs-note{font-size:14px;color:var(--ink-soft);font-style:italic;text-align:center;margin-top:14px}
+
+  .side-img{border-radius:var(--radius);overflow:hidden;box-shadow:0 18px 40px -18px rgba(22,25,29,.35)}
+  .side-img img{width:100%;height:100%;object-fit:cover}
+  .stack-img{display:grid;gap:14px}
+
+  /* step number */
+  .stepline{display:flex;align-items:center;gap:14px;margin-bottom:14px}
+  .stepnum{flex:none;width:42px;height:42px;border-radius:50%;background:var(--jsc-blue);color:#fff;font-family:var(--head);font-weight:800;font-size:19px;display:grid;place-items:center}
+
+  /* CTA band */
+  .cta-band{background:linear-gradient(115deg,var(--ink) 0%,#22303F 55%,var(--jsc-blue-dark) 100%);color:#fff;text-align:center;padding:64px 24px}
+  .cta-band h2{color:#fff;margin-bottom:10px}
+  .cta-band p{color:#D6DEE7;max-width:56ch;margin:0 auto 26px}
+  .cta-band a.tel{color:var(--jsc-gold);font-weight:800;text-decoration:none}
+
+  /* FAQ */
+  .faq{max-width:820px;margin:0 auto}
+  details{border:1px solid var(--line);border-radius:var(--radius);background:#fff;margin-bottom:12px;overflow:hidden}
+  summary{cursor:pointer;list-style:none;padding:18px 22px;font-family:var(--head);font-weight:700;font-size:17px;color:var(--ink);display:flex;justify-content:space-between;align-items:center;gap:14px}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";font-size:24px;color:var(--jsc-blue);font-weight:600;transition:transform .2s}
+  details[open] summary::after{transform:rotate(45deg)}
+  details .a{padding:0 22px 18px;color:var(--ink-soft)}
+  .draft-tag{display:inline-block;background:var(--jsc-gold);color:var(--ink);font-size:11px;font-weight:800;letter-spacing:1.5px;padding:3px 10px;border-radius:99px;vertical-align:middle;margin-left:10px}
+
+  /* values + footer */
+  .values{background:var(--ink);color:#9AA6B2;text-align:center;padding:34px 24px;font-size:14px;letter-spacing:2px;font-weight:700}
+  .values b{color:var(--jsc-gold)}
+  footer{background:#0F1216;color:#9AA6B2;padding:56px 0 32px;font-size:15px}
+  footer .wrap{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:40px}
+  footer h3{color:#fff;font-size:16px;letter-spacing:1px;text-transform:uppercase}
+  footer a{color:#C6CFD8;text-decoration:none;display:block;margin-bottom:8px}
+  footer a:hover{color:var(--jsc-gold)}
+  .fine{grid-column:1/-1;border-top:1px solid #232A32;padding-top:22px;margin-top:14px;font-size:13px;text-align:center}
+
+  /* ============ RESPONSIVE ============ */
+  @media(max-width:900px){
+    nav.main{display:none}
+    .two-col,.two-col.flip{grid-template-columns:1fr;gap:28px}
+    .photo-grid{grid-template-columns:repeat(2,1fr)}
+    /* On mobile the photo grid sits right after the intro copy — high on the
+       page, not dumped at the bottom like the old Divi sidebar strip. */
+    .two-col .side-col{order:2}
+    footer .wrap{grid-template-columns:1fr}
+    section{padding:52px 0}
+    .hero .wrap{padding-top:72px;padding-bottom:72px}
+  }
+  @media(max-width:540px){
+    .photo-grid{grid-template-columns:1fr 1fr;gap:10px}
+  }
+  @media (prefers-reduced-motion: reduce){
+    *{transition:none!important}
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER — top bar removed; header CTA is now click-to-call -->
+<header class="hdr">
+  <div class="wrap">
+    <a class="logo" href="#">JSC<span>CONTRACTING INC.</span></a>
+    <nav class="main">
+      <a href="#">HOME</a><a href="#">SERVICES</a><a href="#">ABOUT US</a>
+      <a href="#">REVIEWS</a><a href="#">BLOG</a><a href="#">GALLERIES</a><a href="#">CONTACT</a>
+    </nav>
+    <a class="btn call-btn" href="tel:3526872030"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg> 352.687.2030</a>
+  </div>
+</header>
+
+<!-- HERO — montage image goes in .bg; gradient overlay keeps H1 legible -->
+<div class="hero">
+  <div class="bg"></div>
+  <div class="wrap">
+    <span class="eyebrow">Services</span>
+    <h1>Barndominium Builders in Florida</h1>
+    <p class="sub">You dream it. We build it. Custom barndominiums built anywhere in Florida by a crew with 25+ years of construction experience.</p>
+    <div class="cta-row">
+      <a class="btn gold" href="#appt">GET A FREE QUOTE</a>
+      <a class="btn ghost" href="tel:3526872030">CALL 352.687.2030</a>
+    </div>
+    <div class="trust">
+      <a class="gstars" href="https://g.page/r/CU_afPuU9LllEAE/review" target="_blank" rel="noopener nofollow" title="Read our Google reviews" style="text-decoration:none;color:inherit"><span class="stars" aria-hidden="true">★★★★★</span> <b>5.0</b>&nbsp;· <span class="rev-count">25</span> Google Reviews</a>
+      <span><b>✓</b> 25+ Years Experience</span>
+      <span><b>✓</b> FL Certified Residential Contractor <b>CRC1332267</b></span>
+      <span><b>✓</b> We Build Statewide</span>
+    </div>
+    <!-- In WP, the review line becomes: ★★★★★ [bwd_rating] · [bwd_review_count] Google Reviews
+         — counts live in ONE snippet file, never edited page-by-page. -->
+
+  </div>
+</div>
+
+<!-- INTRO + PHOTO GRID -->
+<section>
+  <div class="wrap">
+    <span class="kicker">Service</span>
+    <h2>We Are The Best Barndominium Builders in Florida</h2>
+    <p>We love building barndominiums for our Florida clients. Not only do they provide space and convenience, they can save you money. Compared to traditional construction a barndominium can save you tens of thousands of dollars and potentially even hundreds of thousands. For less money they provide you more flexibility, vaulted ceilings, and all the space you need for your family.</p>
+    <p>You have options when it comes to finding a barndominium builder in Florida. We hope after reading about our process and seeing our work, you will trust that we are the best barndominium builders in Florida. Trusting us with your build is the best honor we can receive.</p>
+
+    <!-- Photo grid: real JSC jobs, placed right after the hook.
+         In Kadence this becomes a native Advanced Gallery block. -->
+    <div class="photo-grid">
+      <figure><img src="https://jscfla.com/wp-content/uploads/2026/02/barndo-outside-2.webp" alt="Barndominium with wood siding built by JSC Contracting in Florida" loading="lazy"><figcaption>Wood siding exterior</figcaption></figure>
+      <figure><img src="https://jscfla.com/wp-content/uploads/2026/02/barndo-2.webp" alt="Aerial view of a completed JSC barndominium build" loading="lazy"><figcaption>Aerial view, completed build</figcaption></figure>
+      <figure><img src="https://jscfla.com/wp-content/uploads/2026/02/bardo-4.webp" alt="Board and batten barndominium exterior in central Florida" loading="lazy"><figcaption>Board &amp; batten exterior</figcaption></figure>
+      <figure><img src="https://jscfla.com/wp-content/uploads/2025/12/barndominium-3.webp" alt="Barndominium interior with vaulted ceilings and open kitchen" loading="lazy"><figcaption>Vaulted-ceiling interior</figcaption></figure>
+      <figure><img src="https://jscfla.com/wp-content/uploads/2026/02/barndo-inside-garage.webp" alt="Barndominium garage and shop space" loading="lazy"><figcaption>Garage &amp; shop space</figcaption></figure>
+      <figure><img src="https://jscfla.com/wp-content/uploads/2026/02/barndo-indside-rustic.webp" alt="Rustic barndominium interior with aged wood finishes" loading="lazy"><figcaption>Rustic interior finishes</figcaption></figure>
+    </div>
+    <p class="real-jobs-note">Every photo on this page is a real JSC job — no stock photos.</p>
+  </div>
+</section>
+
+<!-- STEP 1 -->
+<section class="warm">
+  <div class="wrap two-col">
+    <div>
+      <div class="stepline"><span class="stepnum">1</span><h2 style="margin:0">What Are The First Steps to Building a Barndominium?</h2></div>
+      <p>The first step to building your barndominium is finding a floorplan. Folks often spend countless hours scrolling through the internet for the floor plan that strikes them just right! We encourage this, and <strong>yes we can build anything that you find! No job is too big or small for us.</strong></p>
+      <p>Want a customized floorplan? This is possible as well! You can draw out what you are looking for and we will have one of our architects bring your ideas to life. Or just tell us what you're wanting and we can work one up from scratch! Find some plans online that are close but not quite what you want? Adjustments are possible as well.</p>
+      <p><strong>Remember our slogan at JSC is "You dream it. We build it."</strong></p>
+      <h3>What's Next After Plans?</h3>
+      <p>You've got your plans, but now you need to think about materials! Your materials list can swing the cost of your barndominium quite a bit. The price of windows, doors, garage doors, countertops, flooring. All of these items and more need to be figured out for a solid quote. It's also not just materials. <strong>It's choices like do I want an outdoor kitchen?</strong> A hot tub? Landscaping, sprinkler systems, driveways, we do it all at JSC!</p>
+      <p>If you're not using financing it's easy for us as a builder to work with you throughout the build. <strong>We can establish up front what items you want to shop for and what items you would like us to order!</strong> If you are using financing we really need to nail down all of your materials options and appliances so you have the total complete cost of the build ready for your lender. Lenders typically don't allow for you to come out of pocket for items during construction.</p>
+      <a class="btn" href="#appt">GET STARTED TODAY</a>
+    </div>
+    <div class="side-col stack-img">
+      <div class="side-img"><img src="https://jscfla.com/wp-content/uploads/2025/12/barndominium-3.webp" alt="Open-concept barndominium interior built by JSC" loading="lazy"></div>
+      <div class="side-img"><img src="https://jscfla.com/wp-content/uploads/2026/02/barndo-inside.webp" alt="Barndominium interior framing and finish work" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<!-- STEP 2 -->
+<section>
+  <div class="wrap two-col flip">
+    <div class="side-col stack-img">
+      <div class="side-img"><img src="https://jscfla.com/wp-content/uploads/2026/02/barndo-2.webp" alt="Aerial view of barndominium site and prepared pad" loading="lazy"></div>
+      <div class="side-img"><img src="https://jscfla.com/wp-content/uploads/2026/02/bardo-4.webp" alt="Completed board and batten barndominium" loading="lazy"></div>
+    </div>
+    <div>
+      <div class="stepline"><span class="stepnum">2</span><h2 style="margin:0">Let's Break Ground on Your Barndominium!</h2></div>
+      <p>Breaking ground is a great feeling! Before we can finalize the quote for your barndominium we need to know where you're building. <strong>We are based out of central Florida but we can build throughout the state,</strong> so that's not the problem. Every building site is different and requires a different level of site prep. We want to make sure that your barndominium is elevated properly. We need to check soil conditions, and there may be some clearing to do. <strong>Proper site prep is crucial for building a barndominium. This is one of the things that makes us the best barndominium builders in Florida.</strong></p>
+      <p>A barndominium can have a large footprint, combining both your home and barn space for some builds. <strong>This requires a perfectly prepared pad for construction.</strong> It ensures the stability of the site, and the soundness of your structure.</p>
+      <p>Do you have a lot you own already? Or do you need to buy land? Are you planning on financing the build? If so purchasing your land at the commencement of construction is something you may want to consider. <strong>Land loans require heavy down payments compared to construction loans which are possible with as little as 5% down.</strong> We can guide you through this process with one of our <a href="https://www.blackrockmortgage.com/" style="color:var(--jsc-blue);font-weight:700">preferred lenders</a>.</p>
+      <h3>Constructing Your Barndominium From The Ground Up</h3>
+      <p><strong>This is where you're going to see the JSC crew shine.</strong> We show up and get the job done. Your barndo may be metal framed or use poles but we start there along with the foundation. Once it's cured your trusses go in. We quickly aim to dry your structure in with a roof. Then we install your siding, metal or otherwise. Then we move to windows, exterior doors, and insulation.</p>
+      <p><strong>With your barndominium dried in and protected from the elements we can then begin interior construction.</strong> We start to frame out your rooms, using lasers and other state of the art construction advancements we make sure every wall, line, and trim is precise and straight.</p>
+      <p>Electrical, plumbing, air conditioning all get installed in coordination. <strong>JSC prides itself on superior construction management.</strong> This ensures our builds are completed in a timely manner.</p>
+      <p>Drywall and or wood siding gets installed. A lot of barndominium owners are looking for a rustic look. <strong>Stressed metal interior siding, stone, and aged wood are common additions!</strong></p>
+      <p>Final touches include your flooring, kitchen, bathrooms, lighting, appliances, and any outdoor items you've chosen as well.</p>
+      <a class="btn" href="#appt">GET STARTED TODAY</a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE -->
+<section class="warm">
+  <div class="wrap">
+    <span class="kicker">Why JSC</span>
+    <h2>Why Choose JSC to Construct Your Barndominium?</h2>
+    <p>It's easy for us to call ourselves the best barndominium builders in Florida, it's another thing to prove it. We encourage you to view some of our completed projects on this page. Our track record is proven. <strong>We have the experience to make sure your job goes smoothly, and you get the outcome you desire.</strong></p>
+    <p>As always we will walk through the job with you and make sure that every detail matches your expectations. If you'd like more information or would like to begin getting a quote for a build, call or schedule an appointment today!</p>
+  </div>
+</section>
+
+<!-- FAQ — DRAFT: questions for FAQPage schema + AI citations. Keith reviews copy. -->
+<section>
+  <div class="wrap">
+    <h2 style="text-align:center">Barndominium Questions We Hear Most <span class="draft-tag">DRAFT</span></h2>
+    <p style="text-align:center;max-width:60ch;margin:0 auto 34px">Draft FAQ — answers to be finalized with Alex's real numbers before launch. These become FAQPage schema in AIOSEO.</p>
+    <div class="faq">
+      <details>
+        <summary>How much does it cost to build a barndominium in Florida?</summary>
+        <div class="a">[DRAFT — pull real range from the 2026 cost blog post and Alex. Materials choices like windows, doors, countertops and flooring swing the total significantly, which is why every JSC quote is built from your specific plan and site.]</div>
+      </details>
+      <details>
+        <summary>Can you build anywhere in Florida?</summary>
+        <div class="a">Yes. We're based in central Florida (Silver Springs), and we build barndominiums throughout the state.</div>
+      </details>
+      <details>
+        <summary>Can I use my own floor plan?</summary>
+        <div class="a">Yes — bring any plan you find online and we can build it, adjust it, or have our architects draw a custom plan from your ideas.</div>
+      </details>
+      <details>
+        <summary>Can I finance a barndominium build?</summary>
+        <div class="a">Yes. Construction loans are possible with as little as 5% down — far less than typical land loans. We can connect you with one of our preferred lenders to walk you through it.</div>
+      </details>
+      <details>
+        <summary>How long does a barndominium build take?</summary>
+        <div class="a">[DRAFT — get a realistic range from Alex, e.g. "most builds run X–Y months depending on size, site prep and material lead times."]</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<div class="cta-band" id="appt">
+  <h2>Make an Appointment Today!</h2>
+  <p>Call <a class="tel" href="tel:3526872030">352.687.2030</a> or schedule online to review your barndominium project and get a free price quote.</p>
+  <a class="btn gold" href="#">SCHEDULE MY FREE QUOTE</a>
+</div>
+
+<!-- VALUES -->
+<div class="values">OUR VALUES: <b>C</b>ONSISTENCY • <b>O</b>RGANIZATION • <b>N</b>EAT • <b>Q</b>UALITY • <b>U</b>NITY • <b>E</b>NVIRONMENT • <b>R</b>ELIABILITY</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div>
+      <h3>JSC Contracting Inc.</h3>
+      <p>16455 E Hwy 40, Unit 1<br>Silver Springs, FL 34488<br><a href="tel:3526872030">352.687.2030</a><a href="mailto:info@jscfla.com">info@jscfla.com</a></p>
+    </div>
+    <div>
+      <h3>Services</h3>
+      <a href="#">Docks</a><a href="#">Boat Houses</a><a href="#">Seawalls</a><a href="#">Boat Lifts</a><a href="#">Pole Barns</a><a href="#">Barndominiums</a><a href="#">Remodeling</a><a href="#">New Construction</a>
+    </div>
+    <div>
+      <h3>Service Area</h3>
+      <p>All of Central Florida — Marion, Lake, Sumter, Citrus, Alachua, Putnam counties and beyond. Barndominiums built statewide.</p>
+    </div>
+    <div class="fine">© JSC Contracting Inc. • Florida Certified Residential Contractor — Lic. CRC1332267 • Developed by Benchmark Web Development</div>
+  </div>
+</footer>
+
+</body>
+</html>

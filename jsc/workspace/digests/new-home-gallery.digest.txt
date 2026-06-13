@@ -1,0 +1,29 @@
+== new-home-gallery (ID 101276) ==
+
+POST_TITLE: New Home Gallery
+
+AIOSEO_TITLE: (default)
+
+AIOSEO_DESC: Check out some pictures of our past new construction builds in our new home gallery.
+
+
+
+BG: http://jsc.local/wp-content/uploads/2025/12/jsc-short-2.webp
+
+TEXT: <p>Our work speaks for itself</p>
+
+TEXT: <h1>New Home Gallery</h1>
+
+TEXT: <p>Get a Free Quote Today!</p>
+
+TEXT: <p>Make an Appointment Today</p>
+
+BUTTON: Get started today -> http://jsc.local/contact/
+
+TEXT: <p>Check out our past new home builds.</p>
+
+IMG: http://jsc.local/wp-content/uploads/2026/02/bardo-4.webp | alt=New Construction Home
+
+IMG: http://jsc.local/wp-content/uploads/2026/02/new-construction-spec-home.webp | alt=new construction spec home
+
+IMG: http://jsc.local/wp-content/uploads/2026/02/new-construction-home-modern-florida.webp | alt=new construction home modern florida

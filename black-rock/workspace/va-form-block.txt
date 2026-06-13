@@ -1,0 +1,138 @@
+<!-- wp:html -->
+<style>
+.brm-prog-cta {
+  --pt: #008376;
+  --pt-dark: #006B5F;
+  --pt-deep: #0f2e2d;
+  --pt-deeper: #0a1f1e;
+  --pt-accent: #5dcaa5;
+  --pt-gold: #f5a524;
+  position: relative;
+  background:
+    radial-gradient(120% 90% at 80% -10%, rgba(93,202,165,0.16), transparent 60%),
+    linear-gradient(180deg, #0f2e2d 0%, #0a1f1e 100%);
+  color: #fff;
+  padding: 90px 24px 100px;
+  border-radius: 20px;
+  max-width: 1200px;
+  margin: 48px auto;
+  overflow: hidden;
+  font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  box-sizing: border-box;
+}
+.brm-prog-cta *, .brm-prog-cta *::before, .brm-prog-cta *::after { box-sizing: border-box; }
+.brm-prog-cta-wrap {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.brm-prog-cta-eyebrow {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 12.5px;
+  color: var(--pt-accent);
+  text-align: center;
+  margin: 0 0 14px;
+}
+.brm-prog-cta h2 {
+  font-family: "Rubik", sans-serif;
+  color: #fff !important;
+  text-align: center;
+  font-size: clamp(30px, 4vw, 44px);
+  text-transform: uppercase;
+  font-weight: 800;
+  margin: 0 0 18px;
+  line-height: 1.15;
+  letter-spacing: -0.005em;
+}
+.brm-prog-cta-lead {
+  color: #cfe0de !important;
+  text-align: center !important;
+  max-width: 720px;
+  margin: 0 auto 36px !important;
+  font-size: 17px;
+  line-height: 1.6;
+}
+.brm-prog-cta-form-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 10px;
+  padding: 28px;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+.brm-prog-cta-form-wrap iframe {
+  width: 100%;
+  border: 0;
+  display: block;
+  min-height: 700px;
+  overflow: hidden;
+  border-radius: 6px;
+  background: #fff;
+}
+.brm-prog-cta-arrive {
+  text-align: center;
+  margin: 80px 0 0;
+}
+.brm-prog-cta-arrive a {
+  display: inline-block;
+  max-width: 560px;
+  padding: 14px 32px;
+  background: var(--pt-gold) !important;
+  color: #1a1a1a !important;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 15.5px;
+  letter-spacing: 0.01em;
+  line-height: 1.35;
+  border-radius: 6px;
+  border: 2px solid var(--pt-gold);
+  text-decoration: none !important;
+  transition: all 180ms ease;
+}
+.brm-prog-cta-arrive a:hover {
+  background: #ffb944 !important;
+  border-color: #ffb944;
+  color: #1a1a1a !important;
+  transform: translateY(-1px);
+}
+@media (max-width: 720px) {
+  .brm-prog-cta { padding: 60px 18px 70px; border-radius: 14px; margin: 32px 12px; }
+  .brm-prog-cta-form-wrap { padding: 16px; border-radius: 6px; }
+  .brm-prog-cta-arrive { margin-top: 60px; }
+  .brm-prog-cta-arrive a { display: block; margin: 0 auto; max-width: 360px; }
+}
+</style>
+ 
+<div class="brm-prog-cta" id="see-my-options">
+  <div class="brm-prog-cta-wrap">
+    <p class="brm-prog-cta-eyebrow">Ready When You Are</p>
+    <h2>Get Your VA Pre-Approval in 24 Hours</h2>
+    <p class="brm-prog-cta-lead">We'll pull your Certificate of Eligibility, run your scenario, and have you pre-approved in 24 hours. Most veterans qualify for more home than they think</p>
+ 
+    <div class="brm-prog-cta-form-wrap">
+      <iframe id="brmPreapproval"
+              src="http://black-rock-mortgage.local/wp-content/uploads/forms/preapproval-form.html"
+              title="See what you qualify for - Black Rock Mortgage"
+              scrolling="no" loading="eager"></iframe>
+    </div>
+ 
+    <p class="brm-prog-cta-arrive"><a href="https://coast2coastmortgage.my1003app.com/303217/register">Ready for a full app? Apply Directly Through Our Secure Portal</a></p>
+  </div>
+</div>
+ 
+<script data-cfasync="false" data-no-optimize="1" data-no-defer="1" data-no-minify="1">
+(function(){
+  window.addEventListener('message', function(e){
+    if(!e.data) return;
+    if(e.data.brm === 'height'){
+      var f = document.getElementById('brmPreapproval');
+      if(f && e.data.h){ f.style.height = e.data.h + 'px'; }
+    }
+  });
+})();
+</script>
+<!-- /wp:html -->

@@ -1,0 +1,89 @@
+{
+    "version": "0.1.20260610",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "5.1748 sec.",
+    "cost": 0.0271987,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "06110203-1901-0612-0000-4edf23dfcb17",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "5.1479 sec.",
+            "cost": 0.0271987,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "chat_gpt",
+                "llm_responses",
+                "live"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_responses",
+                "se": "chat_gpt",
+                "model_name": "gpt-4o-mini",
+                "web_search": true,
+                "user_prompt": "Who should I use for a USDA loan in Florida?"
+            },
+            "result": [
+                {
+                    "model_name": "gpt-4o-mini-2024-07-18",
+                    "input_tokens": 8174,
+                    "output_tokens": 621,
+                    "reasoning_tokens": 0,
+                    "web_search": true,
+                    "money_spent": 0.0265987,
+                    "datetime": "2026-06-11 02:03:30 +00:00",
+                    "items": [
+                        {
+                            "type": "message",
+                            "sections": [
+                                {
+                                    "type": "text",
+                                    "text": "When considering a USDA loan in Florida, it's essential to choose a lender experienced with USDA financing to ensure a smooth and efficient process. Here are some reputable options:\n\n**[Metroplex Mortgage Services, Inc.](https:\/\/www.mplx.org\/?utm_source=openai)**  \n**Closed Â· Mortgage lender Â· 4.8 (142 reviews)**  \n_8622 N Himes Ave, Tampa, FL 33614_  \nRecognized as Florida's #1 USDA lender in 2017, 2023, 2024, and 2025, offering personalized service and expertise in USDA loans.\n\n**[Seacoast Bank](https:\/\/www.seacoastbank.com\/locations\/sarasota-ringling?utm_source=openai)**  \n**Closed Â· Banks & Credit Unions Â· 3.5 (2 reviews)**  \n_1950 Ringling Blvd, Sarasota, FL 34236_  \nProvides USDA home loans with features like zero down payment, low-interest rates, and flexible credit history requirements.\n\n**[Harper Mortgage Team](http:\/\/www.harpermortgage.us?utm_source=openai)**  \n**Open now Â· Mortgage Lenders Â· 5.0 (1 reviews)**  \n_520 N Semoran Blvd, Ste 225, Orlando, FL 32807_  \nSpecializes in USDA loans, assisting families in rural and suburban areas with 100% financing options.\n\n**[1st Florida Lending](https:\/\/www.1floridalending.com\/?utm_source=openai)**  \n**Closed Â· Mortgage lender Â· 4.8 (244 reviews)**  \n_2151 Consulate Dr STE 8, Orlando, FL 32837_  \nOffers a variety of loan programs, including USDA loans, with a focus on low rates and personalized service.\n\n**[North Star Mortgage Network](https:\/\/www.nsmn.com?utm_source=openai)**  \n**Closed Â· Mortgage Brokers**  \n_12058 San Jose Blvd, Ste 404, Jacksonville, FL 32223_  \nHelps families across Florida access affordable financing through USDA loans, emphasizing no down payment and low rates.\n\n**[The Orlicki Group](http:\/\/www.orlickigroup.com?utm_source=openai)**  \n**Closed Â· Mortgage Brokers Â· 3.7 (3 reviews)**  \n_401 E Jackson St, Ste 2340, Tampa, FL 33602_  \nProvides USDA home loans with 100% financing, catering to both first-time and repeat homebuyers.\n\nAdditionally, national lenders like United Wholesale Mortgage have been recognized for their performance in USDA loans in Florida. ([saferate.com](https:\/\/saferate.com\/local\/florida\/best-mortgage-lenders\/usda-loans?utm_source=openai))\n\nBefore selecting a lender, it's advisable to compare loan terms, interest rates, and customer reviews to find the best fit for your needs. Ensure the lender is approved by the USDA and has experience with USDA loan programs. ",
+                                    "annotations": [
+                                        {
+                                            "title": "Metroplex Mortgage Services, Inc.",
+                                            "url": "https:\/\/www.mplx.org\/?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "Seacoast Bank",
+                                            "url": "https:\/\/www.seacoastbank.com\/locations\/sarasota-ringling?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "Harper Mortgage Team",
+                                            "url": "http:\/\/www.harpermortgage.us?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "1st Florida Lending",
+                                            "url": "https:\/\/www.1floridalending.com\/?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "North Star Mortgage Network",
+                                            "url": "https:\/\/www.nsmn.com?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "The Orlicki Group",
+                                            "url": "http:\/\/www.orlickigroup.com?utm_source=openai"
+                                        },
+                                        {
+                                            "title": "Best USDA Mortgage Lenders in Florida",
+                                            "url": "https:\/\/saferate.com\/local\/florida\/best-mortgage-lenders\/usda-loans?utm_source=openai"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "fan_out_queries": [
+                        "USDA loan lenders Florida 2023"
+                    ]
+                }
+            ]
+        }
+    ]
+}

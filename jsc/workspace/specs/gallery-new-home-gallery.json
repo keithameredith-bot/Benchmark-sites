@@ -1,0 +1,18 @@
+{
+    "h1": "New Home Gallery",
+    "intro": "Get a\u00a0Free Quote\u00a0Today!",
+    "images": [
+        {
+            "url": "/wp-content/uploads/2026/02/bardo-4.webp",
+            "alt": "New Construction Home"
+        },
+        {
+            "url": "/wp-content/uploads/2026/02/new-construction-spec-home.webp",
+            "alt": "new construction spec home"
+        },
+        {
+            "url": "/wp-content/uploads/2026/02/new-construction-home-modern-florida.webp",
+            "alt": "new construction home modern florida"
+        }
+    ]
+}

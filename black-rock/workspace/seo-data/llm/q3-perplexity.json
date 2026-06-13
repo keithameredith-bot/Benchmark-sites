@@ -1,0 +1,99 @@
+{
+    "version": "0.1.20260610",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.2782 sec.",
+    "cost": 0.005933,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "06110203-1901-0612-0000-2cc077c2634e",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "3.2685 sec.",
+            "cost": 0.005933,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "perplexity",
+                "llm_responses",
+                "live"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_responses",
+                "se": "perplexity",
+                "model_name": "sonar",
+                "web_search": true,
+                "user_prompt": "What lender is best for manufactured home financing in Florida?"
+            },
+            "result": [
+                {
+                    "model_name": "sonar",
+                    "input_tokens": 18,
+                    "output_tokens": 315,
+                    "reasoning_tokens": 0,
+                    "web_search": true,
+                    "money_spent": 0.005333,
+                    "datetime": "2026-06-11 02:03:50 +00:00",
+                    "items": [
+                        {
+                            "type": "message",
+                            "sections": [
+                                {
+                                    "type": "text",
+                                    "text": "The **best lender depends on your situation**: for *home-only\/chattel* financing, **JCF Lending Group** is the clearest specialist; for broader manufactured-home options in Florida, **Atlantic Mortgage (FloridaHomeLoans.org)** and **Capital Home Mortgage Florida** both present themselves as dedicated Florida manufactured-home lenders.[8][2][4]\n\nA practical way to choose is:\n\n- **If you are buying only the home, not the land:** **JCF Lending Group** is the strongest fit because it explicitly specializes in *chattel mortgages* and home-only manufactured-home loans in Florida.[8]\n- **If you need FHA, VA, USDA, conventional, or land-plus-home financing:** **Atlantic Mortgage \/ FloridaHomeLoans.org** stands out because it says manufactured-home financing is its primary specialty and lists multiple loan programs, including single-wide eligibility.[2]\n- **If you want a Florida lender emphasizing competitive rates and guidance across manufactured-home programs:** **Capital Home Mortgage Florida** is a reasonable candidate, since it says it specializes in Florida manufactured-home loans and offers both traditional and chattel financing.[4][5]\n\nIf your goal is the *single best overall fit*, **Atlantic Mortgage** is the most versatile specialist from the results because it appears to cover the widest range of manufactured-home loan types in Florida while still claiming manufactured-home focus.[2]\n\nIf you want, I can also compare these lenders by **loan type, down payment, credit flexibility, and whether they finance land + home or home-only**.",
+                                    "annotations": [
+                                        {
+                                            "title": "Manufactured Home Loans in Florida",
+                                            "url": "https:\/\/www.selecthomeloans.com\/manufactured-home-loans-in-florida\/"
+                                        },
+                                        {
+                                            "title": "Florida Manufactured Home Loans | FHA, VA, USDA, Chattel ...",
+                                            "url": "https:\/\/floridahomeloans.org"
+                                        },
+                                        {
+                                            "title": "911 Manufactured Home Lenders Florida 954-667-9110",
+                                            "url": "https:\/\/www.usmortgagelenders.com\/manufactured-home-lenders-florida\/"
+                                        },
+                                        {
+                                            "title": "Florida Manufactured Home Loans",
+                                            "url": "https:\/\/capitalhomemortgage.com\/Florida\/manufactured-home-loans\/"
+                                        },
+                                        {
+                                            "title": "Florida Mortgage Programs",
+                                            "url": "https:\/\/capitalhomemortgage.com\/florida\/manufactured-home-loans\/"
+                                        },
+                                        {
+                                            "title": "Manufactured Home Lenders in Florida",
+                                            "url": "https:\/\/www.myfloridamanufacturedhome.com\/lenders\/"
+                                        },
+                                        {
+                                            "title": "Private Lenders",
+                                            "url": "https:\/\/www.goldenlenders.net\/2024\/03\/28\/who-finances-florida-manufactured-homes\/"
+                                        },
+                                        {
+                                            "title": "FLORIDA MOBILE HOME LENDER - JCF LENDING GROUP",
+                                            "url": "https:\/\/chattelmortgage.net\/Florida_Mobile_home_lender.html"
+                                        },
+                                        {
+                                            "title": "Florida Manufactured Home Loans Made Simple",
+                                            "url": "https:\/\/www.triadfs.com\/news\/florida-manufactured-home-loans-made-simple-triad"
+                                        },
+                                        {
+                                            "title": "Guide to Financing a Manufactured Home in Florida",
+                                            "url": "https:\/\/www.triadfs.com\/news\/manufactured-home-financing-florida-guide"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "fan_out_queries": null
+                }
+            ]
+        }
+    ]
+}

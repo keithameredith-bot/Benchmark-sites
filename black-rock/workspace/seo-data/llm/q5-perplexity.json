@@ -1,0 +1,87 @@
+{
+    "version": "0.1.20260610",
+    "status_code": 20000,
+    "status_message": "Ok.",
+    "time": "3.0873 sec.",
+    "cost": 0.005977,
+    "tasks_count": 1,
+    "tasks_error": 0,
+    "tasks": [
+        {
+            "id": "06110204-1901-0612-0000-4504fcde15c5",
+            "status_code": 20000,
+            "status_message": "Ok.",
+            "time": "3.0591 sec.",
+            "cost": 0.005977,
+            "result_count": 1,
+            "path": [
+                "v3",
+                "ai_optimization",
+                "perplexity",
+                "llm_responses",
+                "live"
+            ],
+            "data": {
+                "api": "ai_optimization",
+                "function": "llm_responses",
+                "se": "perplexity",
+                "model_name": "sonar",
+                "web_search": true,
+                "user_prompt": "What are current USDA turn times in Florida and how do I check them?"
+            },
+            "result": [
+                {
+                    "model_name": "sonar",
+                    "input_tokens": 22,
+                    "output_tokens": 355,
+                    "reasoning_tokens": 0,
+                    "web_search": true,
+                    "money_spent": 0.005377,
+                    "datetime": "2026-06-11 02:04:10 +00:00",
+                    "items": [
+                        {
+                            "type": "message",
+                            "sections": [
+                                {
+                                    "type": "text",
+                                    "text": "USDA âturn timesâ in Florida are *not published as one fixed statewide number* in the results you provided; they change by office, workload, and loan type. For USDA home loans, a commonly cited overall timeline is **about 30â45 days** for closing, while lender underwriting is often **2â7 days** and state Rural Development approval can take **a few days to a week or more** depending on demand[2][3].\n\nTo **check current Florida USDA turn times**, the most reliable route is to contact the specific USDA office that handles your county:\n\n- Use the USDA **Service Center locator** to find your local Florida NRCS\/FSA office and its phone number[5][6].\n- The Florida NRCS\/FSA contact list shows county offices and direct numbers for many Florida locations, such as Bartow, Crestview, Florida City, Ocala, Sarasota, and DeFuniak Springs[1].\n- If your question is about a **USDA loan file**, ask your lender which Florida USDA Rural Development office is reviewing it, because turn times depend on the state office and current volume[2][3].\n\nIf you want the quickest check:\n- Call your **local USDA Service Center** and ask for the current **Rural Development \/ loan turn time** for your county[5][6].\n- If you already have a lender, ask them for the current **state office review time** on your file, since they can usually see the queue directly[2][3].\n\nIf you tell me your **Florida county** and whether you mean **home loans, farm programs, or NRCS\/FSA service requests**, I can help you identify the exact office to contact from the Florida list[1][5].",
+                                    "annotations": [
+                                        {
+                                            "title": "[PDF] Florida NRCS & FSA Service Center Contact List - USDA",
+                                            "url": "https:\/\/www.nrcs.usda.gov\/sites\/default\/files\/2024-08\/Florida-NRCS-FSA-Service-Center-Contact-List-FINAL-FINAL_Aug2024.pdf"
+                                        },
+                                        {
+                                            "title": "USDA Closing Process: How Long Does it Take to Close?",
+                                            "url": "https:\/\/www.neighborsbank.com\/learn\/usda-loan-closing-process-timeline\/"
+                                        },
+                                        {
+                                            "title": "How long does the USDA mortgage closing process take?",
+                                            "url": "https:\/\/www.usdamortgagesource.com\/blog\/qa-how-long-does-the-usda-mortgage-closing-process-take\/"
+                                        },
+                                        {
+                                            "title": "What Farmers and Ranchers Need to Know to be Prepared for ...",
+                                            "url": "https:\/\/blogs.ifas.ufl.edu\/jacksonco\/2026\/05\/29\/what-farmers-and-ranchers-need-to-know-to-be-prepared-for-inspection-at-florida-agricultural-inspection-stations\/"
+                                        },
+                                        {
+                                            "title": "Get Started at Your USDA Service Center - Farmers.gov",
+                                            "url": "https:\/\/www.farmers.gov\/working-with-us\/USDA-service-centers"
+                                        },
+                                        {
+                                            "title": "Department of Agriculture - USDA Service Center Locator",
+                                            "url": "https:\/\/catalog.data.gov\/dataset\/usda-service-center-locator"
+                                        },
+                                        {
+                                            "title": "Florida Commissioner of Agriculture and Consumer Services",
+                                            "url": "https:\/\/ballotpedia.org\/Florida_Commissioner_of_Agriculture_and_Consumer_Services"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "fan_out_queries": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+== new-fencing-gallery (ID 101266) ==
+
+POST_TITLE: New Fencing Gallery
+
+AIOSEO_TITLE: (default)
+
+AIOSEO_DESC: Check out some pics of our past new fencing jobs. Whether its a horse farm, cattle ranch, hobby farm or home, we can fence it!
+
+
+
+BG: http://jsc.local/wp-content/uploads/2025/12/jsc-short-2.webp
+
+TEXT: <p>Our work speaks for itself</p>
+
+TEXT: <h1>New Fencing Gallery</h1>
+
+TEXT: <p>Get a Free Quote Today!</p>
+
+TEXT: <p>Make an Appointment Today</p>
+
+BUTTON: Get started today -> http://jsc.local/contact/
+
+TEXT: <p>Check out our past new fencing jobs.</p>
+
+IMG: http://jsc.local/wp-content/uploads/2026/02/four-board-fencing-with-lake-small.webp | alt=four board fencing with lake small
+
+IMG: http://jsc.local/wp-content/uploads/2026/05/farm-fencing-wood-in-central-florida.webp | alt=Wooden split-rail fence runs diagonally across a sunlit green field toward a tree line under a blue sky with clouds.
+
+IMG: http://jsc.local/wp-content/uploads/2026/02/wire-mesh-fencing.webp | alt=wire mesh fencing
+
+IMG: http://jsc.local/wp-content/uploads/2026/05/470799161_450629144752587_7168345407542470707_n.jpg | alt=
+
+IMG: http://jsc.local/wp-content/uploads/2026/05/Moss-Bluff-Ranches.jpg | alt=
+
+IMG: http://jsc.local/wp-content/uploads/2026/05/vinyl-fencing-in-central-florida-jsc-job.webp | alt=White wooden fence runs along a grassy field, receding toward trees in the background.

@@ -1,0 +1,39 @@
+== contact (ID 97973) ==
+
+POST_TITLE: Contact
+
+AIOSEO_TITLE: (default)
+
+AIOSEO_DESC: (none)
+
+
+
+BG: http://jsc.local/wp-content/uploads/2025/12/jsc-short-2.webp
+
+TEXT: <p>Let's get in touch</p>
+
+TEXT: <h1>Contact us</h1>
+
+TEXT: <p>Get a Free Quote!</p>
+
+TEXT: <p>Make an Appointment Today</p>
+
+BUTTON: Call or fill out your details below -> 
+
+TEXT: <p>We would love to take the first steps and connect with you. We can discuss your project or answer any general questions you have. If you need to just ask a few questions feel free to <strong>give us a call</strong> during business hours. If you're ready to make an appointment fill out of the info below and a member of our sales team will reach out to confirm.</p>
+
+TEXT: <h2>Make an Appointment Today!</h2>
+
+TEXT: <p>[wpforms id="101491" title="false"]</p>
+
+TEXT: <p>16455 E Hwy 40, Unit 1<br />Silver Springs, FL 34488</p>
+
+TEXT: <p>info@jscfla.com</p>
+
+TEXT: <p>352.687.2030</p>
+
+TEXT: <p>Mon – Fri: 8:00 am – 4:00 pm<br />Sat- Sunday: By Appointment</p>
+
+BG: https://constructionpro-demo.markhendriksen.com/wp-content/uploads/2024/08/corner-dots-left-top.png
+
+TEXT: <p>You Dream it, We Build it.</p>

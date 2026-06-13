@@ -1,0 +1,5 @@
+source,target,type,notes
+/services/geotechnical-engineering,/geotechnical-engineering-services-florida/,301,Only real content URL on live Astro site that changes slug
+/services/geotechnical-engineering/,/geotechnical-engineering-services-florida/,301,Trailing-slash variant
+/services,/services/,301,Live /services 404s today; harmless safety net to new services index
+,,,"NOTE: /about and /contact keep the same slugs — WP canonical redirect handles slash variants automatically. Apply these in AIOSEO Redirects on production at launch. Live site has no sitemap/robots.txt, so this list (from homepage crawl) is complete."

@@ -1,0 +1,18 @@
+# backups & exports (contain password hashes / are huge)
+*.sql
+*.wpress
+*.zip
+
+# media — lives in WP uploads / OneDrive
+*.png
+*.webp
+*.jpg
+*.jpeg
+*.ttf
+*.pdf
+*.mov
+*.mp4
+
+# scratch files (leading-underscore convention)
+_*
+**/_*
