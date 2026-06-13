@@ -24,6 +24,12 @@ Copy the repo's root `CLAUDE.md` to the global Claude location so it loads in ev
 ```
 copy CLAUDE.md "%USERPROFILE%\.claude\CLAUDE.md"
 ```
+
+## 3b. Install the skills (e.g. the `new-site` skill)
+```
+xcopy /E /I /Y skills "%USERPROFILE%\.claude\skills"
+```
+Then `/new-site` is available in any terminal for spinning up a from-scratch build.
 (Create the `.claude` folder first if it doesn't exist.)
 
 ## 4. Copy your secrets by hand (NOT in the repo, NOT in OneDrive)

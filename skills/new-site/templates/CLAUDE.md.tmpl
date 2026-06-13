@@ -1,0 +1,32 @@
+# CLAUDE.md — {{BUSINESS_NAME}} ({{NICHE}})
+
+**START HERE: read `PROJECT-STATUS.md`** — the live handoff. Shared Benchmark conventions
+(WP+Kadence stack, truth-audit, wp_slash, eval-file, self-canonical, design system) auto-load from
+the global `~/.claude/CLAUDE.md`.
+
+> This is a FROM-SCRATCH build (not a migration). Research → architecture → build, in that order.
+> No existing rankings to protect; no domain authority yet — keyword research drives the structure.
+
+## Quick facts
+- **Business:** {{BUSINESS_NAME}} — {{WHAT_THEY_DO}}
+- **Location / service area:** {{LOCATION}} / {{SERVICE_AREA}}
+- **Domain:** {{DOMAIN_OR_TBD}}
+- **Existing presence:** {{EXISTING}}
+- **Local WP (LocalWP):** {{LOCAL_PATH_TBD}} — create the Local site, then wire `wp-env.sh`.
+- **WP-CLI:** `& "C:\Users\keith\.hermes\git\bin\bash.exe" -c 'source ~/Desktop/{{SLUG}}-workspace/wp-env.sh && wp ...'`
+- **DataForSEO:** `~/.dataforseo-auth` · research in `KEYWORD-RESEARCH.md`
+- **Backup before any DB change:** `wp db export backup-<thing>-<date>.sql`
+
+## Phase status
+- [ ] Keyword & market research (DataForSEO) → KEYWORD-RESEARCH.md
+- [ ] Site architecture mapped + approved by Keith (page/URL tree, location wheel, internal links)
+- [ ] LocalWP site created + wp-env.sh wired
+- [ ] Design tokens (reuse FGS/Black Rock patterns)
+- [ ] Pages built (pillars → services → locations → core) · truth-audited copy
+- [ ] SEO foundation (AIOSEO LocalBusiness schema, titles from research, sitemap, llms.txt, OG, canonicals)
+- [ ] Blog launched + GBP cadence
+- [ ] Mission Control + repo sync wired
+
+## Keith's working style
+- Direct, technically precise, no hedging. Minimal scoped changes; show the plan before non-trivial copy.
+- Flag canonical/SEO-cluster decisions. Don't fabricate facts/credentials — ask. Don't deploy — Keith's call.
