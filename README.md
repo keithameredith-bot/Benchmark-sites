@@ -1,6 +1,6 @@
 # benchmark-sites
 
-Code + project knowledge for Benchmark Web Design client WordPress sites. This repo is the
+Code + project knowledge for Benchmark Web Development client WordPress sites. This repo is the
 **off-machine copy and history** — it is NOT the editing surface. Edit at the canonical
 locations below, then run `sync-to-repo.ps1` and commit.
 

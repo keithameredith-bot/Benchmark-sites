@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Benchmark Mission Control</title>
+<style>
+  :root{
+    --bg:#0f1216; --panel:#171b21; --panel2:#1d222a; --line:#272d37;
+    --ink:#e8ecf2; --mut:#93a0b2; --dim:#6b7686;
+    --idea:#6b7686; --draft:#e0a52b; --sched:#3b82f6; --ship:#22a06b; --open:#7c5cff;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:radial-gradient(1200px 600px at 80% -10%,#1a2230 0,transparent 55%),var(--bg);
+    color:var(--ink);font:15px/1.5 -apple-system,Segoe UI,Roboto,Inter,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:1340px;margin:0 auto;padding:34px 26px 80px}
+  header.top{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap;
+    padding-bottom:20px;border-bottom:1px solid var(--line);margin-bottom:26px}
+  .brand{font-size:13px;letter-spacing:3px;text-transform:uppercase;color:var(--mut);font-weight:700;margin:0 0 6px}
+  h1{margin:0;font-size:30px;font-weight:800;letter-spacing:-.3px}
+  .updated{color:var(--dim);font-size:13px;margin-top:6px}
+  .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12.5px;color:var(--mut)}
+  .legend span{display:inline-flex;align-items:center;gap:6px}
+  .dot{width:9px;height:9px;border-radius:50%}
+  .summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin-bottom:36px}
+  .scard{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px 18px;position:relative;overflow:hidden}
+  .scard::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--accent)}
+  .scard h3{margin:0 0 2px;font-size:16px;font-weight:800}
+  .scard .stage{font-size:12px;color:var(--mut);margin-bottom:10px}
+  .scard .traffic{font-size:12.5px;color:var(--ink);margin-bottom:3px}
+  .scard .traffic b{color:#7fe0b3}
+  .scard .cad{font-size:12px;color:var(--dim);margin-bottom:12px}
+  .scard .nums{display:flex;gap:16px}
+  .scard .n{font-size:11px;color:var(--dim);text-transform:uppercase;letter-spacing:.4px}
+  .scard .n b{display:block;font-size:19px;color:var(--ink);font-weight:800;line-height:1.1}
+  .site{margin-bottom:42px}
+  .sitehead{display:flex;align-items:center;gap:12px;margin:0 0 6px}
+  .sitehead .tag{width:12px;height:12px;border-radius:3px;background:var(--accent)}
+  .sitehead h2{margin:0;font-size:21px;font-weight:800}
+  .sitehead .url{color:var(--dim);font-size:13px}
+  .sitehead .pill{margin-left:auto;font-size:12px;color:var(--mut);background:var(--panel2);border:1px solid var(--line);padding:5px 12px;border-radius:999px}
+  .metarow{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 14px 24px;font-size:12px}
+  .chip{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:4px 10px;color:var(--mut)}
+  .chip b{color:#7fe0b3}
+  .sitegrid{display:grid;grid-template-columns:1.05fr 1fr;gap:16px}
+  @media(max-width:900px){.sitegrid{grid-template-columns:1fr}}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+  .panel h4{margin:2px 0 12px;font-size:12px;font-weight:800;letter-spacing:.8px;text-transform:uppercase;color:var(--mut);
+    display:flex;align-items:center;gap:8px}
+  /* schedule rows */
+  .srow{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-top:1px solid var(--line)}
+  .srow:first-of-type{border-top:0}
+  .dchip{flex:0 0 50px;text-align:center;background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:6px 0;line-height:1.15}
+  .dchip .mo{font-size:10px;text-transform:uppercase;letter-spacing:.5px;color:var(--sched);font-weight:700}
+  .dchip .dy{font-size:18px;font-weight:800}
+  .dchip.tbd{color:var(--dim)} .dchip.tbd .mo{color:var(--dim)} .dchip.tbd .dy{font-size:12px;padding:3px 0}
+  .srow .body{flex:1;min-width:0}
+  .srow .t{font-size:13.5px;font-weight:650;line-height:1.35}
+  .srow .sub{font-size:11.5px;color:var(--dim);margin-top:3px}
+  /* queue groups */
+  .qgroup{margin-bottom:6px}
+  .qgroup .ql{font-size:11px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:var(--dim);margin:10px 0 6px}
+  .qcard{display:flex;align-items:flex-start;gap:9px;background:var(--panel2);border:1px solid var(--line);
+    border-left:3px solid var(--lane);border-radius:9px;padding:9px 11px;margin-bottom:7px}
+  .qcard .t{font-size:13px;font-weight:600;line-height:1.3}
+  .qcard .sub{font-size:11px;color:var(--dim);margin-top:2px}
+  .badge{font-size:10px;font-weight:800;letter-spacing:.3px;padding:2px 7px;border-radius:6px;text-transform:uppercase;white-space:nowrap;color:#0f1216}
+  .b-idea{background:#9aa6b4}.b-draft{background:var(--draft)}.b-sched{background:var(--sched);color:#fff}
+  .b-ship{background:var(--ship);color:#fff}.b-open{background:transparent;color:var(--open);border:1px dashed var(--open)}
+  .shipped{margin:14px 0 0 24px;font-size:12px;color:var(--dim)}
+  .shipped b{color:var(--mut);text-transform:uppercase;letter-spacing:.5px;font-size:11px}
+  .schip{display:inline-flex;align-items:center;gap:6px;background:var(--panel);border:1px solid var(--line);
+    border-radius:999px;padding:3px 10px;margin:4px 6px 0 0;color:var(--mut);font-size:12px}
+  .schip .gd{width:7px;height:7px;border-radius:50%;background:var(--ship)}
+  .empty{color:#46505f;font-size:12px;padding:10px 2px}
+  footer{margin-top:30px;color:var(--dim);font-size:12px;border-top:1px solid var(--line);padding-top:16px}
+  code{background:#222936;padding:1px 6px;border-radius:5px;color:#c6d0dd;font-size:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <p class="brand">Benchmark Web Development</p>
+      <h1>Mission Control</h1>
+      <div class="updated" id="updated"></div>
+    </div>
+    <div class="legend">
+      <span><i class="dot" style="background:var(--open)"></i>Open slot</span>
+      <span><i class="dot" style="background:var(--idea)"></i>Idea</span>
+      <span><i class="dot" style="background:var(--draft)"></i>Drafting</span>
+      <span><i class="dot" style="background:var(--sched)"></i>Scheduled</span>
+      <span><i class="dot" style="background:var(--ship)"></i>Shipped / live</span>
+    </div>
+  </header>
+  <section class="summary" id="summary"></section>
+  <div id="boards"></div>
+  <footer id="foot"></footer>
+</div>
+
+<script>window.MC = { updated: "2026-06-13", sites: [] };</script>
+<script src="data/fgs.js"></script>
+<script src="data/brm.js"></script>
+<script src="data/te.js"></script>
+<script src="data/jsc.js"></script>
+<script>
+  const MC = window.MC;
+  const esc = s => (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  const SHIPPED = ["published","live"];
+  const isShipped = s => SHIPPED.includes((s||"").toLowerCase());
+  const MOS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  const badge = st => {
+    const m = {idea:["b-idea","Idea"],drafting:["b-draft","Drafting"],ready:["b-sched","Ready"],
+      scheduled:["b-sched","Scheduled"],published:["b-ship","Published"],live:["b-ship","Live"],open:["b-open","Open"]};
+    const x = m[(st||"").toLowerCase()]||["b-idea",st||"?"];
+    return `<span class="badge ${x[0]}">${x[1]}</span>`;
+  };
+  const LANE = {idea:"var(--idea)",drafting:"var(--draft)",ready:"var(--sched)",scheduled:"var(--sched)",open:"var(--open)"};
+
+  document.getElementById("updated").textContent = "Pipeline as of " + (MC.updated||"—") +
+    " · cadence-driven publishing schedule";
+
+  // summary
+  document.getElementById("summary").innerHTML = MC.sites.map(s=>{
+    const posts = s.items.filter(i=>i.type==="Blog");
+    const pagesQ = s.items.filter(i=>i.type!=="Blog" && !isShipped(i.status)).length;
+    const postsQ = posts.filter(i=>!isShipped(i.status)).length;
+    const shipped = s.items.filter(i=>isShipped(i.status)).length;
+    const tr = s.traffic||{};
+    return `<div class="scard" style="--accent:${s.color}">
+      <h3>${esc(s.name)}</h3><div class="stage">${esc(s.stage)}</div>
+      <div class="traffic"><b>~${(tr.visits||0).toLocaleString()}</b> organic visits/mo · ${tr.keywords||0} keywords</div>
+      <div class="cad">📅 ${esc(s.cadence||"")}</div>
+      <div class="nums">
+        <div class="n"><b>${postsQ}</b>posts queued</div>
+        <div class="n"><b>${pagesQ}</b>pages queued</div>
+        <div class="n"><b>${shipped}</b>shipped</div>
+      </div></div>`;
+  }).join("");
+
+  // boards
+  document.getElementById("boards").innerHTML = MC.sites.map(s=>{
+    const tr = s.traffic||{};
+    // schedule = blog posts not shipped, dated asc then undated
+    const sched = s.items.filter(i=>i.type==="Blog" && !isShipped(i.status))
+      .sort((a,b)=> (a.date||"9999").localeCompare(b.date||"9999"));
+    const schedHtml = sched.length ? sched.map(i=>{
+      let chip;
+      if(i.date){ const d=i.date.split("-"); chip=`<div class="dchip"><div class="mo">${MOS[(+d[1])-1]}</div><div class="dy">${+d[2]}</div></div>`; }
+      else chip=`<div class="dchip tbd"><div class="dy">TBD</div></div>`;
+      return `<div class="srow">${chip}<div class="body">
+        <div class="t">${esc(i.title)}</div>
+        <div class="sub">${badge(i.status)} ${i.author?"· "+esc(i.author):""} ${i.note?"· "+esc(i.note):""}</div>
+      </div></div>`;
+    }).join("") : `<div class="empty">No posts queued.</div>`;
+
+    // queue = non-blog not shipped, grouped by type
+    const order = ["Location Page","Service Page","Page"];
+    const q = s.items.filter(i=>i.type!=="Blog" && !isShipped(i.status));
+    const qHtml = q.length ? order.filter(t=>q.some(i=>i.type===t)).map(t=>{
+      const cards = q.filter(i=>i.type===t).map(i=>`
+        <div class="qcard" style="--lane:${LANE[(i.status||'idea').toLowerCase()]||'var(--idea)'}">
+          <div style="flex:1">
+            <div class="t">${esc(i.title)}</div>${i.note?`<div class="sub">${esc(i.note)}</div>`:""}
+          </div>${badge(i.status)}
+        </div>`).join("");
+      return `<div class="qgroup"><div class="ql">${t}s</div>${cards}</div>`;
+    }).join("") : `<div class="empty">Build queue clear.</div>`;
+
+    // shipped chips
+    const shipped = s.items.filter(i=>isShipped(i.status));
+    const shipHtml = shipped.length ? `<div class="shipped"><b>Shipped / live:</b><br>` +
+      shipped.map(i=>`<span class="schip"><span class="gd"></span>${esc(i.title)}${i.date?" · "+i.date:""}</span>`).join("") + `</div>` : "";
+
+    return `<section class="site">
+      <div class="sitehead" style="--accent:${s.color}">
+        <span class="tag"></span><h2>${esc(s.name)}</h2><span class="url">${esc(s.site||"")}</span>
+        <span class="pill">${esc(s.stage)}</span>
+      </div>
+      <div class="metarow">
+        <span class="chip"><b>~${(tr.visits||0).toLocaleString()}</b> visits/mo</span>
+        <span class="chip">${tr.keywords||0} ranked keywords</span>
+        <span class="chip">📅 ${esc(s.cadence||"")}</span>
+        ${tr.note?`<span class="chip">${esc(tr.note)}</span>`:""}
+      </div>
+      <div class="sitegrid">
+        <div class="panel"><h4>📅 Publishing Schedule</h4>${schedHtml}</div>
+        <div class="panel"><h4>🔧 Build Queue — pages</h4>${qHtml}</div>
+      </div>
+      ${shipHtml}
+    </section>`;
+  }).join("");
+
+  document.getElementById("foot").innerHTML =
+    'Update by telling Claude in any terminal — e.g. <code>schedule an FGS post on percolation tests for July 25</code> ' +
+    'or <code>mark the Citrus location page ready</code>. Each site has its own file in <code>data/</code> so terminals don\'t collide. ' +
+    'Traffic = DataForSEO organic estimate for the current live domain.';
+</script>
+</body>
+</html>

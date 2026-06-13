@@ -1,10 +1,10 @@
-# CLAUDE.md — Benchmark Web Design / WordPress Sites
+# CLAUDE.md — Benchmark Web Development / WordPress Sites
 
 This file is the ground truth for working on these sites locally. Read it before touching anything. Keep it lean — every line here loads into context at the start of each session.
 
 ## What this directory is
 
-Local working copies of client WordPress sites managed by Benchmark Web Design (Keith Meredith, Ocala FL). Each client lives in its own subfolder, all on **WordPress + Kadence theme**.
+Local working copies of client WordPress sites managed by Benchmark Web Development (Keith Meredith, Ocala FL). Each client lives in its own subfolder, all on **WordPress + Kadence theme**.
 
 ## Who I'm working with / how to respond
 
