@@ -51,7 +51,6 @@ $content = '<!-- wp:html -->
 <h2>Tell Us About Your Project</h2>
 <p class="jsc-form-note">Where it is, what you want built, and any timeline you\'re working against. The more we know, the tighter the quote.</p>
 <div class="jsc-callback-bar"><span class="jsc-cb-dot"></span><span>You can expect a call back the <strong>same business day</strong> — no later than the next.</span></div>
-<script id="wpforms-jquery-fallback">if(!window.jQuery){document.write(\'<script src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"><\\/script>\');}</script>
 [wpforms id="' . $JSC_QUOTE_FORM_ID . '" title="false"]
 </div>
 <aside class="jsc-form-aside">

@@ -119,3 +119,9 @@ This is a **mid-flight Divi→Kadence migration**, not just an update. The LIVE 
 - DEPLOY: mu-plugins are files, NOT pushable via REST. Keith uploads workspace copy to prod
   wp-content/mu-plugins/tire-express-custom.php via Pressidium SFTP/file manager (or give Claude
   SFTP creds — Windows has a built-in sftp client). Then purge Pressidium cache, check a post.
+
+## 2026-06-12 (night) — share buttons LIVE on prod
+- tire-express-custom.php pushed via SFTP (creds: ~\.pressidium-sftp.txt, user
+  tireexpress-prod-claude, docroot behind tireexpress-www symlink). Verified live:
+  te-share bar renders on the heat-warning post. KEITH: purge Pressidium cache so all
+  cached posts pick it up.

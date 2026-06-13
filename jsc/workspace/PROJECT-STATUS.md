@@ -297,3 +297,14 @@ new-construction, about-us, reviews, blog, contact. (Confirm full list against s
   `jquery` to prod delay exclusions the shim no-ops; can be removed on a later push.
 - GOTCHA RECONFIRMED: build-quote-page.php needed wp_slash() once content contained <\/script>.
 - Verified live: shim not delayed, backslash intact, callback bar/aside/dot render, menu pulse gone.
+
+## 2026-06-12 (night) — SFTP deploys: jquery fix permanent, stopgaps removed
+- Pressidium SFTP live (creds: ~\.pressidium-sftp.txt, user jscfla-prod-claude). Pushed:
+  (1) NEW mu-plugin wp-content/mu-plugins/jsc-perfmatters.php — filter perfmatters_delay_js_exclusions
+  adds `jquery` (WPForms fix, permanent, code-versioned). VERIFIED live: jquery-core-js no longer
+  pmdelayedscript. Keith UI flip no longer needed for jquery — ONLY remaining flip: Perfmatters
+  mobile preload URL -> jsc-home-hero-montage-mobile-hd.webp.
+  (2) kadence-child/style.css — prod now matches local (drawer button CSS native).
+- Removed both stopgaps: footer widget block-90 <style> hack (REST) and the quote-page
+  wpforms-jquery-fallback shim (rebuilt + pushed). All verified live; form renders.
+- KEITH: purge Pressidium cache (cached pages still serve old HTML until then).

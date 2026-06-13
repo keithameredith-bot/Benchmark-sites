@@ -40,10 +40,15 @@ $new = <<<'CSS'
 #masthead .header-button-wrap{display:flex;align-items:center;margin:0}
 #masthead .header-button{margin:0 !important}
 /* — Links: semibold, animated maroon underline — */
+#masthead .header-navigation .primary-menu-container > ul{display:flex;gap:14px}
 #masthead .header-navigation .primary-menu-container > ul > li > a{
   font-weight:600;font-size:16px;color:#2d2d2d;
   padding:14px 14px;position:relative;transition:color .22s ease;
+  display:inline-flex;align-items:center;
 }
+/* no dropdown carets — clean labels, dropdowns still open on hover (Keith 2026-06-12) */
+#masthead .header-navigation .dropdown-nav-toggle{display:none !important}
+#masthead .header-navigation .nav-drop-title-wrap{display:inline-flex;align-items:center}
 #masthead .header-navigation .primary-menu-container > ul > li > a::after{
   content:"";position:absolute;left:14px;right:14px;bottom:8px;height:2.5px;
   border-radius:2px;background:#a91513;
