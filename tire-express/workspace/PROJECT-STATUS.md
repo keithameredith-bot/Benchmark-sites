@@ -125,3 +125,13 @@ This is a **mid-flight Divi→Kadence migration**, not just an update. The LIVE 
   tireexpress-prod-claude, docroot behind tireexpress-www symlink). Verified live:
   te-share bar renders on the heat-warning post. KEITH: purge Pressidium cache so all
   cached posts pick it up.
+
+## 2026-06-13 — blog flare + Ben Bishop author (FGS pattern), LIVE on prod
+- All 3 posts enriched (enrich-te-posts.php, idempotent): TLDR answer box (te-blog-tldr) up top,
+  scannable table (te-blog-table), mid-post CTA band (te-blog-cta, call/drive-in), FAQ section.
+  Rotation post mileage claim aligned to 5,000-7,500 (was 3,000-8,000).
+- Ben Bishop = author (make-ben-author.php): local user 9, PROD user 11 (created via REST).
+  mu-plugin additions: hand-rolled author box (te-author-box, Ben-Bishop.webp pic), avatar filter
+  (pre_get_avatar_data), author-archive noindex (aioseo_robots_meta). Styles all inline in mu-plugin.
+- Deployed: mu-plugin via SFTP, content+author via REST. Verified live: all elements on all 3 posts.
+- KEITH: purge Pressidium cache (TE + JSC) so cached pages pick up tonight's changes.
